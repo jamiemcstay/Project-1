@@ -9,6 +9,7 @@
 
 body {
     min-height: 100vh;
+    color: red; 
     
 }
 
@@ -30,4 +31,9 @@ a {
 
 h1 {
     color: red; 
+}
+
+a:visited {
+    color: red;
+    
 }
