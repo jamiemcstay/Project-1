@@ -46,7 +46,7 @@ a {
     letter-spacing: 4px;
     width: 100%; 
     text-align: center;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     margin: 1rem auto 1rem auto; 
 }
 
@@ -101,14 +101,45 @@ main {
 }
 
 #hero-image {
-    width: 100%;
-      
+    width: 100%;      
 }
 
 #hero-image img {
     width: 100%; 
-    
+}
 
+@media screen and (min-width: 768px) {
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        width: 55%;
+        padding-right: 30px;
+        padding-left: 30px; 
+        
+    }
+
+    #nav-items {
+        display: flex; 
+        justify-content: space-evenly; 
+        width: 100%; 
+    }
+
+    #nav-items li {
+        margin-bottom: 0; 
+    }
+
+    .nav-toggle-label {
+        display: none; 
+    }
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        margin: 0 auto 0 auto; 
+    }
 }
 
 
