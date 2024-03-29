@@ -89,24 +89,34 @@ main {
     /*make main element styles*/
     /*make main element take up any surplus space to push footer down*/
     width: 100%; 
-    margin-top: 200px;  
+    
     
 }
 
 #hero {   
-    height: 100px; 
     width: 100%; 
     position: relative; 
     top: 50px; 
 }
 
 #hero-image {
-    width: 100%;      
+    width: 100%;   
+    margin: 0;   
 }
 
 #hero-image img {
     width: 100%; 
 }
+
+#album-section {
+    background-color: black; 
+    height: 60vh;
+    width: 100%;  
+    margin-top: 0;
+}  
+    
+}
+/*Media queries for screens larger than 768px*/
 
 @media screen and (min-width: 768px) {
     /*header*/
