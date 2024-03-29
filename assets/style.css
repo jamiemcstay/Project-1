@@ -9,12 +9,20 @@
 
 body {
     min-height: 100vh;
-    color: red; 
+   
     
 }
 
 header {
     background-color: black;  
+    position: fixed;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 1; 
+    margin-bottom: 50px; 
+    
 }
 
 h1 {
@@ -22,18 +30,86 @@ h1 {
     letter-spacing: 0.2rem; 
     text-decoration: none; 
     font-size: 300%;
-    
+    color: red;  
 }
+    
 
 a {
-    text-decoration: none; 
-}
-
-h1 {
+    text-decoration: none;
     color: red; 
+
 }
 
-a:visited {
-    color: red;
+#nav-items {
+    list-style-type: none;
+    font-size: 110%; 
+    letter-spacing: 4px;
+    width: 100%; 
+    text-align: center;
+    font-size: 2rem; 
+    margin: 1rem auto 1rem auto; 
+}
+
+#nav-items > li {
+    margin-bottom: 1em; 
+}
+
+
+/*nav bar styles with dropdown toggle*/
+
+nav {
+    position: absolute; 
+    left: 0; 
+    top: 100%;
+    width: 100%; 
+    display: none;
+    padding: 0 1em;
+    background-color: black;
+  
+}
+
+/*Hamburger menu styles*/
+
+#nav-toggle:checked~nav {
+    display: block; 
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    color: white; 
+}
+
+Main styles*/
+
+main {
+    
+    /*make main element styles*/
+    /*make main element take up any surplus space to push footer down*/
+    width: 100%; 
+    margin-top: 200px;  
     
 }
+
+#hero {   
+    height: 100px; 
+    width: 100%; 
+    position: relative; 
+    top: 50px; 
+}
+
+#hero-image {
+    width: 100%;
+      
+}
+
+#hero-image img {
+    width: 100%; 
+    
+
+}
+
+
+
