@@ -224,7 +224,9 @@ main {
     #album-buttons {
         width: 200px;
         order: 1;
-        align-self: baseline;
+        align-self: self-end; 
+        position: relative;
+        left: -200px;
     }
 
     .album-image {
