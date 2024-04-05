@@ -286,6 +286,7 @@ main {
 
 footer {
     background-color: black;
+    width: 100%;
 }
 
 footer > h2 {
@@ -334,7 +335,20 @@ input[type="email"] {
     color: white; 
     margin-bottom: 50px; 
     align-self: center;
+    margin-left: 30px;
 }
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 80%;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    gap: 10px; 
+}
+
+
+
 
 /*Media queries for screens larger than 768px*/
 
