@@ -287,6 +287,8 @@ main {
 footer {
     background-color: black;
     width: 100%;
+    position: relative;
+    top: 0;
 }
 
 footer > h2 {
@@ -294,6 +296,8 @@ footer > h2 {
     font-weight: 300;
     text-align: center;
     margin-bottom: 30px;
+    padding: 50px 10px 5px 10px;
+    
 }
 
 form {
@@ -345,10 +349,21 @@ input[type="email"] {
     margin: 0 auto 0 auto;
     list-style: none;
     gap: 10px; 
+    margin-bottom: 30px;
+    text-align: center;
 }
 
+.footer-icons {
+    color: red;  
+    display: flex; 
+    justify-content: space-evenly;
+    list-style: none; 
+}
 
-
+.footer-icons li i {
+    font-size: 20px;
+    
+}
 
 /*Media queries for screens larger than 768px*/
 
