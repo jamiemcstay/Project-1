@@ -106,14 +106,14 @@ nav {
     color: white; 
 }
 
-Main styles*/
+/*Main styles*/
 
 main {
     
     /*make main element styles*/
     /*make main element take up any surplus space to push footer down*/
-    width: 100%;  
-    
+    width: 100%;
+    height: auto;     
 }
 
 #hero {   
