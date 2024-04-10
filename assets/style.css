@@ -295,7 +295,7 @@ main {
 
 #tour-dates-page-headings {
     text-align: center; 
-    margin: 100px 0 20px 0;
+    padding: 100px 0 20px 0;
 }
 
 #tour-dates-page-headings > h2 {
@@ -304,6 +304,18 @@ main {
 
 /*STYLES FOR MUSIC PAGE*/
 
+#music-page-headings {
+    text-align: center; 
+    padding: 100px 0 20px 0;
+}
+
+#watch {
+    margin-bottom: 100px;
+}
+
+.album-section {
+    margin-bottom: 300px;
+}
 
 
 /*footer styles*/
