@@ -219,7 +219,7 @@ main {
 }
 
 
-/*styles for tours section  on homepage*/
+/*styles for tours section on homepage*/
 
 #tour-dates {
     display: flex; 
@@ -301,6 +301,9 @@ main {
 #tour-dates-page-headings > h2 {
     margin-bottom: 10px;
 }
+
+/*STYLES FOR MUSIC PAGE*/
+
 
 
 /*footer styles*/
@@ -470,6 +473,4 @@ input[type="email"] {
         justify-content: space-between; 
     }
 }
-
-
 
