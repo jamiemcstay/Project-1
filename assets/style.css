@@ -309,12 +309,22 @@ main {
     padding: 100px 0 20px 0;
 }
 
+.audio-files {
+    background-color: none;
+    color: white ;
+}
+
 #watch {
     margin-bottom: 100px;
 }
 
 .album-section {
     margin-bottom: 300px;
+}
+
+#listen {
+    display: flex; 
+    flex-direction: column;
 }
 
 
