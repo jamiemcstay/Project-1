@@ -21,6 +21,7 @@ body {
     color: red;
 }
 
+
 header {
     background-color: black;  
     position: fixed;
@@ -29,16 +30,18 @@ header {
     justify-content: space-between;
     align-items: baseline;
     z-index: 1; 
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+    height: auto; 
     
 }
 
 h1 {
     padding: 0.8rem; 
-    letter-spacing: 0.2rem; 
+    letter-spacing: 0.1rem; 
     text-decoration: none; 
     font-size: 300%;
     color: white;
+    font-size: 290%;
 }
 
 h2 {
