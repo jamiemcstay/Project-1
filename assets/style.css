@@ -321,34 +321,37 @@ main {
     border: yellow;
 }
 
+.album-cover-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    gap: 15px;
+}
+
 figure {
-    /* align-self: baseline;
-    border: blue;
-    margin-left: 16px; */
-    font-weight: 600px;
-    font-size: 150%;
+    font-weight: 600px;    
+    width: 30%;
+    text-align: center;
 }
 
 .album-cover {
-    width: 250px;
+    width: 45%;
     height: auto;
     border: solid 2px white;
+    
 }
 
 .album-cover img {
     width: 100%;
 }
 
-figcaption {
-    border: blue;
-}
-
 audio {
-    height: 27px;
+    height: 22px;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     margin: 0 auto 0 auto;
-    width: 95%;
+    width: 90%;
     
 }
 
