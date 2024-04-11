@@ -316,7 +316,7 @@ main {
     flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
-    gap: 5px;
+    /* gap: 5px; */
     margin: 0 auto 0 auto;
     border: yellow;
 }
@@ -325,11 +325,12 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 20px auto;
     gap: 15px;
+    
 }
 
-figure {
+.album-title {
     font-weight: 600px;    
     width: 30%;
     text-align: center;
@@ -351,11 +352,16 @@ audio {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     margin: 0 auto 0 auto;
-    width: 90%;
-    
+    width: 90%; 
+    margin-bottom: 5px;
 }
 
-
+.song-title {
+    text-align: left;
+    font-size: 90%;
+    align-self:flex-start;
+    margin: 0 0 5px 20px;
+}
 
 /* .audio-files {
     background-color: none;
