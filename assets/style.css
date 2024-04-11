@@ -262,7 +262,7 @@ main {
 
 }
 
-.tours-overlay {
+.black-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -322,9 +322,9 @@ main {
 }
 
 figure {
-    align-self: baseline;
+    /* align-self: baseline;
     border: blue;
-    margin-left: 16px;
+    margin-left: 16px; */
     font-weight: 600px;
     font-size: 150%;
 }
