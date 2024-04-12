@@ -305,7 +305,7 @@ main {
 
 #music-page-headings {
     text-align: center; 
-    padding: 100px 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 #listen, #watch {
@@ -319,9 +319,9 @@ main {
     flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
-    /* gap: 5px; */
-    margin: 0 auto 0 auto;
+    margin: 0 auto 50px auto;
     border: yellow;
+
 }
 
 .album-cover-title {
