@@ -317,6 +317,10 @@ main {
     position: relative;
 }
 
+#listen {
+    padding-top: 80px;
+}
+
 .listen-container {
     width: 90%; 
     height: auto;
