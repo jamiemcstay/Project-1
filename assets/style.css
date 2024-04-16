@@ -440,6 +440,8 @@ footer {
     width: 100%;
     position: relative;
     top: 0;
+    height: auto;
+    padding-bottom: 2%;
 }
 
 footer > h2 {
@@ -457,6 +459,7 @@ form {
     justify-content: center; 
     align-items: center; 
     margin: 0 auto 0 auto; 
+    width: fit-content;
 }
 
 .form-block {
@@ -480,7 +483,7 @@ input[type="email"] {
 
 #sign-up-button {
     color: black;
-    width: 50%;
+    width: 80%;
     letter-spacing: 3px;
     font-weight: 800;
     background-color: red;
@@ -490,7 +493,7 @@ input[type="email"] {
     color: white; 
     margin-bottom: 50px; 
     align-self: center;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .footer-text {
@@ -507,8 +510,9 @@ input[type="email"] {
 .footer-icons {
     color: red;  
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none; 
+    padding: 0 5%; 
 }
 
 .footer-icons li i {
@@ -602,8 +606,27 @@ input[type="email"] {
         border-bottom: solid white 1px;
         padding-bottom: 20px; 
     }
-    
+
+    /*Footer styles*/
+
+    /* footer > form {
+        width: fit%;
+    } */
+
+    #sign-up-button {
+        margin-left: 50px;
+        flex-shrink: inherit;
+    }
+
+    .footer-text {
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 20%;
+        padding: 0 2% 0 2%;
+        
+    }
 }
+
 
 @media screen and (min-width: 1200px) {
     nav {
@@ -615,4 +638,3 @@ input[type="email"] {
         justify-content: space-between; 
     }
 }
-
