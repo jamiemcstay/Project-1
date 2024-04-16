@@ -509,20 +509,28 @@ input[type="email"] {
 /*Media queries for screens larger than 768px*/
 
 @media screen and (min-width: 768px) {
+
     /*header*/
+    header {
+        display: flex; 
+        justify-content: space-between;
+    }
+
     nav {
         display: block;
         position: relative;
-        width: 55%;
-        padding-right: 30px;
+        width: 60%;
+        padding-right: 10px;
         padding-left: 30px; 
-        
+        font-size: 50%;
     }
 
     #nav-items {
         display: flex; 
         justify-content: space-evenly; 
-        width: 100%; 
+        /* width: 100%;  */
+        font-size: 1.2rem;
+        
     }
 
     #nav-items li {
