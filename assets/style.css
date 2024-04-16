@@ -212,7 +212,7 @@ main {
     position: relative;
     width: 100%;
     height: auto;
-    
+    z-index: -2;
 }
 
 #singer-image img {
@@ -287,6 +287,7 @@ main {
     z-index: -1;
     
 }
+
 
 .sold-out {
     background-color: #682424; 
