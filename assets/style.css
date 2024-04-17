@@ -572,11 +572,11 @@ input[type="email"] {
     }
 
     .album-text {
-        flex-basis: 400px;
-        order: 1;
+        flex-basis: 380px;
         justify-content: space-between;
         margin-top: 0;
         margin-bottom: 0;
+        padding-bottom: 26px;
         
     }
 
