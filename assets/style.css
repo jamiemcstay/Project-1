@@ -576,8 +576,7 @@ input[type="email"] {
         justify-content: space-between;
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 26px;
-        
+        padding-bottom: 26px;  
     }
 
     #album-text-container {
@@ -651,6 +650,14 @@ input[type="email"] {
     }
 }
 
+@media screen and (min-width: 1024px) {
+
+    #album-section-container{
+        width: 60%;
+        margin-bottom: 100px;
+        margin-top: 100px; 
+    }
+}
 
 @media screen and (min-width: 1200px) {
     nav {
@@ -660,5 +667,30 @@ input[type="email"] {
     #nav-items {
         display: flex; 
         justify-content: space-between; 
+    }
+
+    #album-section-container{
+        width: 60%;
+    }
+
+    #album-text-container {
+        line-height: 1.5;
+        font-size: 190%;
+    }
+
+    #album-buttons-hidden {
+        gap: 25px;
+    }
+
+    #album-buttons-hidden > button {
+        padding: 15px 15px; 
+        font-size: 130%;
+        letter-spacing: 6px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #album-section-container {
+        width: 50%;
     }
 }
