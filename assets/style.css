@@ -153,7 +153,9 @@ main {
 
 #album-section-container {
     width: 60%;
-
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
 }
 
 
@@ -161,17 +163,32 @@ main {
     display: flex;
     flex-direction: column;  
     margin-bottom: 20px;
-    margin-top: 20px;
-    
+    flex-grow: 1;
 }
+
+#album-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .album-image {
     margin-bottom: 20px; 
-    flex-grow: 3;   
+    flex-grow: 1;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   
+    
 }
 
 .album-image img {
     width: 100%;
+    height: auto;
+
 }
 
 #album-buttons, #album-buttons-hidden {
@@ -561,10 +578,13 @@ input[type="email"] {
     }
 
 
-/*album section styles*/
+/*ALBUM SECTION STYLES*/
+
+
 
     #album-section-container {
         display: flex;
+        flex-direction: row;
         width: 80%;
         margin-top: 60px;
         margin-bottom: 60px;
@@ -572,11 +592,16 @@ input[type="email"] {
     }
 
     .album-text {
-        flex-basis: 380px;
+        flex-basis: 45%;
         justify-content: space-between;
-        margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 26px;  
+        /* padding-bottom: 26px;   */
+    }
+
+    .album-image {
+        flex-basis: 45%;
+        margin-bottom: 0;
+    
     }
 
     #album-text-container {
@@ -594,11 +619,6 @@ input[type="email"] {
         margin-bottom: 0;
     }
 
-    .album-image {
-        width: 400px;
-        order: 2;
-        
-    }
 
     /*Tour dates styles*/
     .tours-info-container {
@@ -652,11 +672,14 @@ input[type="email"] {
 
 @media screen and (min-width: 1024px) {
 
-    #album-section-container{
-        width: 60%;
-        margin-bottom: 100px;
-        margin-top: 100px; 
+    #album-section-container {
+        
     }
+
+    #album-text-container {
+        font-size: 150%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -669,28 +692,9 @@ input[type="email"] {
         justify-content: space-between; 
     }
 
-    #album-section-container{
-        width: 60%;
-    }
-
     #album-text-container {
-        line-height: 1.5;
-        font-size: 190%;
-    }
-
-    #album-buttons-hidden {
-        gap: 25px;
-    }
-
-    #album-buttons-hidden > button {
-        padding: 15px 15px; 
-        font-size: 130%;
-        letter-spacing: 6px;
+        font-size: 180%;;
     }
 }
 
-@media screen and (min-width: 1440px) {
-    #album-section-container {
-        width: 50%;
-    }
-}
+
