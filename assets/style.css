@@ -331,6 +331,11 @@ main {
     padding-top: 80px;
 }
 
+#listen-wrapper {
+    width: 100%;
+    height: auto;
+}
+
 .listen-container {
     width: 90%; 
     height: auto;
@@ -596,7 +601,7 @@ input[type="email"] {
         
     }
 
-    /*styles for tour dates section*/
+    /*Tour dates styles*/
     .tours-info-container {
         flex-direction: row;
         text-align: left; 
@@ -607,11 +612,30 @@ input[type="email"] {
         padding-bottom: 20px; 
     }
 
-    /*Footer styles*/
+    /*Music page styles*/
 
-    /* footer > form {
-        width: fit%;
-    } */
+    #listen-wrapper {
+        width: 80%;
+        display: flex;
+        margin: 0 auto; 
+        gap: 10%;
+    }
+
+    .listen-container {
+        justify-content: normal; 
+    }
+
+    #watch-container {
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+
+    .music-video {
+        width: 45%;;
+    }
+
+    /*Footer styles*/
 
     #sign-up-button {
         margin-left: 50px;
