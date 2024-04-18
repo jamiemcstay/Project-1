@@ -141,37 +141,39 @@ main {
 
 #album-section {
     width: 100%;  
-    display: flex; 
-    flex-direction: column;
+    /* flex-direction: column;
     align-items:center;
-    text-align: center;
-    margin: 0 auto 0px auto; 
+    text-align: center; */
+    margin: 0 auto 0p auto; 
     position: relative;
     top: 0;
     
 }
 
 #album-section-container {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 10 auto;
+    padding-top: 120px;
 }
 
 
-.album-text {
+/* .album-text {
     display: flex;
     flex-direction: column;  
     margin-bottom: 20px;
     flex-grow: 1;
-}
+} */
 
 #album-text-container {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 40px;
+
 }
-
-
 
 .album-image {
     margin-bottom: 20px; 
@@ -189,6 +191,15 @@ main {
     width: 100%;
     height: auto;
 
+}
+
+figure {
+    font-size: 0.8rem;
+}
+
+.stars {
+    color: red;
+    font-size: 1.3rem;
 }
 
 #album-buttons, #album-buttons-hidden {
@@ -582,7 +593,7 @@ input[type="email"] {
 
 
 
-    #album-section-container {
+    /* #album-section-container {
         display: flex;
         flex-direction: row;
         width: 80%;
@@ -595,7 +606,7 @@ input[type="email"] {
         flex-basis: 45%;
         justify-content: space-between;
         margin-bottom: 0;
-        /* padding-bottom: 26px;   */
+    
     }
 
     .album-image {
@@ -609,15 +620,10 @@ input[type="email"] {
         font-size: 130%;
     }
 
-    /*hide album-buttons so album-buttons-hidden shows under text*/
-    #album-buttons {
-        display: none;
-    }
-
     #album-buttons-hidden {
         display: flex;
         margin-bottom: 0;
-    }
+    } */
 
 
     /*Tour dates styles*/
@@ -672,13 +678,6 @@ input[type="email"] {
 
 @media screen and (min-width: 1024px) {
 
-    #album-section-container {
-        
-    }
-
-    #album-text-container {
-        font-size: 150%;
-    }
 
 }
 
@@ -692,9 +691,6 @@ input[type="email"] {
         justify-content: space-between; 
     }
 
-    #album-text-container {
-        font-size: 180%;;
-    }
 }
 
 
