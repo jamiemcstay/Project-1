@@ -144,7 +144,12 @@ main {
     margin: 0 auto 0p auto; 
     position: relative;
     top: 0;
-    
+}
+
+.album-image-wrapper, .reviews-wrapper {
+    width:100%;
+    height: auto;
+    background-color: black;
 }
 
 #album-section-container {
@@ -153,24 +158,37 @@ main {
     flex-direction: column;
     margin: 10 auto;
     padding-top: 120px;
+    position: relative;
 }
 
 
-#album-text-container {
-    width: 100%;
+.album-section-heading {
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    font-size: 150%;
-    margin-bottom: 40px;
-
+    font-size: 180%;
+    margin-bottom: 100px;
+    color: white; 
+    font-weight: 350;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-bottom: 20px; 
 }
 
+
 .reviews {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;   
     justify-content: space-evenly;
+    gap: 10%;
+    padding-bottom: 30px;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 30px;
+    max-width: 983.06px;
 }
 
 figure {
@@ -179,18 +197,22 @@ figure {
 
 .stars {
     color: red;
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
+
+
 
 .album-image {
     margin-bottom: 20px; 
-    flex-grow: 1;
-    width: 100%;
+    width: 80%;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;   
+    margin: 0 auto 40px auto;
+    padding-top: 20px; 
+    max-width: 819.188px; 
     
 }
 
@@ -200,30 +222,28 @@ figure {
 
 }
 
-#album-buttons, #album-buttons-hidden {
+#album-buttons {
     display : flex; 
     flex-direction: column;
     align-items: center; 
     gap: 10px;
-    margin-bottom: 20px;     
+    padding-bottom: 20px;   
+    background-color: black;
+    
 }
 
-#album-buttons > button, #album-buttons-hidden > button {
-    width: 90%;
-    letter-spacing: 3px;
-    font-weight: 800;
-    background-color: red;
+#album-buttons > button {
+    width: 50%;
+    letter-spacing: 6px;
+    font-weight: 300;
+    background-color: rgb(199, 0, 0);
     padding: 10px 10px;
     border: 0;
     text-align: center;
     color: white;
-      
+    font-size: 130%;
 }
 
-/*Hide album butons hidden so they only show under text on larger screens*/
-#album-buttons-hidden {
-    display: none;
-}
 
 /*singer image section styles*/
 
@@ -588,40 +608,6 @@ input[type="email"] {
 
 
 /*ALBUM SECTION STYLES*/
-
-
-
-    /* #album-section-container {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        margin-top: 60px;
-        margin-bottom: 60px;
-
-    }
-
-    .album-text {
-        flex-basis: 45%;
-        justify-content: space-between;
-        margin-bottom: 0;
-    
-    }
-
-    .album-image {
-        flex-basis: 45%;
-        margin-bottom: 0;
-    
-    }
-
-    #album-text-container {
-        line-height: 2.7rem;
-        font-size: 130%;
-    }
-
-    #album-buttons-hidden {
-        display: flex;
-        margin-bottom: 0;
-    } */
 
 
     /*Tour dates styles*/
