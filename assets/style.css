@@ -146,7 +146,7 @@ main {
     top: 0;
 }
 
-.album-image-wrapper, .reviews-wrapper {
+.black-background-wrapper {
     width:100%;
     height: auto;
     background-color: black;
@@ -173,11 +173,12 @@ main {
     margin: 0 auto;
     text-transform: uppercase;
     padding-bottom: 20px; 
+    max-width: 819.188px; 
 }
 
 
 .reviews {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;   
@@ -188,7 +189,7 @@ main {
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 30px;
-    max-width: 983.06px;
+    max-width: 778.250px;
 }
 
 figure {
@@ -227,7 +228,7 @@ figure {
     flex-direction: column;
     align-items: center; 
     gap: 10px;
-    padding-bottom: 20px;   
+    padding-bottom: 50px;   
     background-color: black;
     
 }
@@ -608,6 +609,15 @@ input[type="email"] {
 
 
 /*ALBUM SECTION STYLES*/
+
+#album-buttons {
+    flex-direction: row; 
+    width: 80%;
+    max-width: 819.18px; 
+    margin: 0 auto; 
+
+}
+
 
 
     /*Tour dates styles*/
