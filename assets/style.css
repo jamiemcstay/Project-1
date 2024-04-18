@@ -182,14 +182,28 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;   
-    justify-content: space-evenly;
-    gap: 10%;
+    justify-content: space-around;
+    gap: 7%;
     padding-bottom: 30px;
     background-color: black;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 30px;
     max-width: 778.250px;
+}
+
+.reviews > figure {
+    padding-bottom: 5px;
+}
+
+blockquote {
+    margin-bottom: 50px; 
+}
+
+blockquote > p {
+    display: flex; 
+    justify-content: space-around;
+    gap: 5px;
 }
 
 figure {
