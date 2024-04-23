@@ -252,19 +252,20 @@ figure {
     gap: 10px;
     padding-bottom: 50px;   
     background-color: black;
-    
 }
+
 
 #album-buttons > button {
     width: 50%;
-    letter-spacing: 6px;
-    font-weight: 300;
+    letter-spacing: 3px;
+    font-weight: 600;
     background-color: rgb(199, 0, 0);
     padding: 10px 10px;
     border: 0;
     text-align: center;
     color: white;
     font-size: 130%;
+    text-transform: uppercase; 
 }
 
 
@@ -337,12 +338,11 @@ figure {
 .tour-button {    
     color: black;
     width: 100%;
-    letter-spacing: 3px;
     font-weight: 800;
     background-color: white;
     padding: 10px 10px; 
     border: 0; 
-
+    font-size: 110%; 
 }
 
 .black-overlay {
@@ -363,8 +363,7 @@ figure {
 }
 
 .tours-more-dates {
-    width: 50%;
-    letter-spacing: 3px;
+    width: 60%;
     font-weight: 800;
     background-color: rgb(199, 0, 0);
     padding: 10px 10px; 
@@ -372,6 +371,7 @@ figure {
     text-align: center; 
     color: white; 
     margin-bottom: 50px;
+    font-size: 110%; 
 }
 
 /*Tour dates page styles*/
@@ -657,7 +657,9 @@ input[type="email"] {
     }
 
     .tours-more-dates {
+        width: 50%; 
         max-width: 720px; 
+
     }
 
     /*Music page styles*/
