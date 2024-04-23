@@ -633,8 +633,6 @@ input[type="email"] {
 
 }
 
-
-
     /*Tour dates styles*/
     .tours-info-container {
         flex-direction: row;
@@ -644,6 +642,11 @@ input[type="email"] {
         width: 50%;
         border-bottom: solid white 1px;
         padding-bottom: 20px; 
+        max-width: 720px; 
+    }
+
+    .tours-more-dates {
+        max-width: 720px; 
     }
 
     /*Music page styles*/
