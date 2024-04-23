@@ -723,7 +723,7 @@ input[type="email"] {
 
     #sign-up-button {
         margin-bottom: 0; 
-        align-self: baseline;; 
+        align-self: baseline; 
     }
 }
 
@@ -731,7 +731,7 @@ input[type="email"] {
    
 
     #nav-items {
-        /*add more space between items in nav bar*//
+        /*add more space between items in nav bar*/
         display: flex; 
         justify-content: space-between; 
     }
