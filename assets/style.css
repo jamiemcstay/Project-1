@@ -524,8 +524,9 @@ form {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    margin: 0 auto 0 auto; 
+    margin: 0 auto 30px auto; 
     width: fit-content;
+    max-width: 819.19px; 
 }
 
 .form-block {
@@ -581,9 +582,9 @@ input[type="email"] {
     padding: 0 5%; 
 }
 
+
 .footer-icons li i {
-    font-size: 20px;
-    
+    font-size: 20px
 }
 
 /*Media queries for screens larger than 768px*/
@@ -694,6 +695,21 @@ input[type="email"] {
     nav {
         margin-right: 50px; 
     }
+
+    form {
+        flex-direction: row; 
+        width: 80%; 
+        gap: 2%; 
+    }
+
+    .form-block {
+        align-self: baseline; 
+    }
+
+    #sign-up-button {
+        margin-bottom: 0; 
+        align-self: baseline;; 
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -705,6 +721,11 @@ input[type="email"] {
         justify-content: space-between; 
     }
 
+    .footer-text {
+        gap: 30%; 
+    }
 }
+
+
 
 
