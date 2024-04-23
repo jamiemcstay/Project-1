@@ -339,6 +339,7 @@ figure {
     text-align: center; 
     gap: 20px; 
     margin-bottom: 50px; 
+    z-index: 3; 
 }
 
 .tours-info {
@@ -358,14 +359,12 @@ figure {
 }
 
 .black-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
     width: 100%;
     height: 100%;
     background-color: black;
     opacity: 0.5;
-    z-index: -1;
+    z-index: 2;
     
 }
 
@@ -384,6 +383,7 @@ figure {
     color: white; 
     margin-bottom: 50px;
     font-size: 110%; 
+    z-index: 3; 
 }
 
 /*Tour dates page styles*/
@@ -531,6 +531,7 @@ footer {
     top: 0;
     height: auto;
     padding-bottom: 2%;
+    z-index: 3;
 }
 
 footer > h2 {
@@ -670,7 +671,6 @@ input[type="email"] {
         border-bottom: solid white 1px;
         padding-bottom: 20px; 
         max-width: 720px; 
-        z-index: 3; 
     }
 
     .tours-more-dates {
