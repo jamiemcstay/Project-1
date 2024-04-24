@@ -366,7 +366,7 @@ figure {
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.56;
+    opacity: 0.86;
     z-index: 1;
 }
 
@@ -393,12 +393,20 @@ figure {
 
 #tour-dates-page-headings {
     text-align: center; 
-    padding: 100px 0 20px 0;
+    padding: 30px 0 0px 0;
     z-index: 3; 
+    margin: 100px 0 30px 0;
+    text-transform: uppercase;
+    z-index: 3;
+    border-bottom: solid white; 
 }
 
 #tour-dates-page-headings > h2 {
-    margin-bottom: 10px;
+    font-weight: 350;
+    margin: 0 auto;
+    text-transform: uppercase;
+    max-width: 819.188px;
+    margin-bottom: 30px; 
 }
 
 .black-overlay-tours-page {
@@ -671,7 +679,8 @@ input[type="email"] {
 
 }
 
-    /*Tour dates styles*/
+    /*Tour dates info containers home and main page styles*/
+
     .tours-info-container {
         flex-direction: row;
         text-align: left; 
@@ -687,6 +696,12 @@ input[type="email"] {
         width: 50%; 
         max-width: 720px; 
 
+    }
+
+    /*TOUR DATES MAIN PAGE STYLES*/
+
+    #tour-dates-page-headings {
+        width: 50%;     
     }
 
     /*Music page styles*/
