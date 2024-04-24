@@ -274,6 +274,7 @@ figure {
     width: 100%;
     height: auto;;
     overflow: hidden;
+    display: flex; 
 }
 
 #singer-image-container {
