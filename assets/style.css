@@ -33,7 +33,6 @@ header {
     justify-content: space-between;
     align-items: baseline;
     z-index: 5; 
-    margin-bottom: 50px;
     height: auto; 
     
 }
@@ -144,11 +143,6 @@ main {
     top: 0;
 }
 
-/* .black-background-wrapper {
-    width:100%;
-    height: auto;
-    background-color: black;
-} */
 
 #album-section-container {
     width: 100%;
