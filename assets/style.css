@@ -17,7 +17,7 @@ body {
 }
 
 .red {
-    color: rgb(199, 0, 0);
+    color: rgb(180, 0, 0);
 }
 
 .white {
@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 180%;
     color: rgb(199, 0, 0);
 }
 
@@ -415,8 +415,26 @@ figure {
 /*STYLES FOR MUSIC PAGE*/
 
 #music-page-headings {
-    text-align: center; 
-    padding: 20px 0 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px   
+}
+
+#music-page-headings > h2 {
+    font-weight: 350;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 30px; 
+}
+
+.album-title {
+    font-size: 130%;
+}
+
+.fig-spacing {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 
 #listen, #watch {
@@ -430,6 +448,7 @@ figure {
 #listen-wrapper {
     width: 100%;
     height: auto;
+    max-width: 780px; 
 }
 
 .listen-container {
@@ -454,9 +473,10 @@ figure {
 }
 
 .album-title {
-    font-weight: 600px;    
     width: 30%;
     text-align: center;
+    font-size: 100%;
+    line-height: 1.4rem;
 }
 
 .album-cover {
@@ -704,7 +724,6 @@ input[type="email"] {
         width: 80%;
         display: flex;
         margin: 0 auto; 
-        gap: 10%;
     }
 
     .listen-container {
