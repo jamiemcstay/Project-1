@@ -14,12 +14,7 @@ body {
     color: white; 
     background-color: black;
     font-family: 'Inter';
-    /* background-image: url("images/black-background.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
+}
 
 .red {
     color: rgb(180, 0, 0);
@@ -91,9 +86,8 @@ nav {
     display: none;
     padding: 0 1em;
     background-color: black;
- 
-}
   
+}
 
 /*Hamburger menu styles*/
 
@@ -121,9 +115,24 @@ main {
     /*make main element styles*/
     /*make main element take up any surplus space to push footer down*/
     width: 100%;
-    height: auto;    
+    height: auto;     
 }
 
+#hero {   
+    width: 100%; 
+    position: relative; 
+    top: 50px; 
+    margin-bottom: 40px;
+}
+
+#hero-image {
+    width: 100%;   
+    margin: 0;   
+}
+
+#hero-image img {
+    width: 100%; 
+}
 
 /*Album release section styles*/ 
 
@@ -132,11 +141,6 @@ main {
     margin: 0 auto 0p auto; 
     position: relative;
     top: 0;
-    /* background-image: url("images/black-background.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;   */
 }
 
 
@@ -301,13 +305,8 @@ figure {
     position: relative;
     margin-bottom: 0; 
     font-size: 130%; 
-    /* background-image: url("images/red-black-rock-1.png");  
-    background-image: url("images/black-background.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-} */
+    background-image: url("images/red-black-rock-1.png");  
+}
 
 
 #tour-dates-home h2 {
@@ -442,13 +441,14 @@ figure {
 }
 
 
+
 #listen {
     padding-top: 80px;
-    /* background-image: url("images/black-background.jpg");  
+    background-image: url("images/red-black-rock-1.png");  
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;  */
+    background-size: cover; 
 
 }
 
@@ -682,12 +682,6 @@ input[type="email"] {
     header {
         display: flex; 
         justify-content: space-between;
-        background-image: url("images/black-background.jpg");  
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover; 
-        
     }
 
     nav {
@@ -832,5 +826,3 @@ input[type="email"] {
         gap: 30%; 
     }
 }
-
-
