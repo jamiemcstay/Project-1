@@ -399,7 +399,7 @@ figure {
 }
 
 
-#tour-dates-page-headings {
+/* #tour-dates-page-headings {
     text-align: center; 
     padding: 30px 0 0px 0;
     z-index: 3; 
@@ -408,15 +408,23 @@ figure {
     z-index: 3;
     border-bottom: solid white; 
     font-size: 80%; 
-}
+} */
 
-#tour-dates-page-headings > h2 {
+.tour-page-heading {
+    width: 60%; 
     font-weight: 350;
     margin: 0 auto;
     text-transform: uppercase;
     max-width: 819.188px;
     margin-bottom: 30px; 
     width: 100%; 
+    z-index: 3; 
+    width: 80%;
+    text-align: center;
+    font-size: 180%;
+    color: white; 
+    max-width: 819.188px;
+    padding-top: 130px;
     
 }
 
