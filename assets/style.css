@@ -384,6 +384,7 @@ figure {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover; 
 }
 
 
@@ -447,6 +448,7 @@ figure {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover; 
 
 }
 
@@ -456,7 +458,6 @@ figure {
     max-width: 780px; 
     position: relative;
     z-index: 2; 
-    background-color: black; 
 }
 
 .listen-container {
