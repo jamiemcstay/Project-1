@@ -86,7 +86,6 @@ nav {
     width: 100%; 
     display: none;
     padding: 0 1em;
-  
 }
 
 /*Hamburger menu styles*/
@@ -107,6 +106,7 @@ nav {
 .fa-solid, .fas {
     font-weight: 900;
     font-size: 35px;
+    color: white;
 }
 
 /*Main styles*/
