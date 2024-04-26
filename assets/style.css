@@ -475,8 +475,15 @@ figure {
     justify-content: space-between; 
     align-items: center; 
     margin: 0 auto;
-    max-width: 288px;  
-    padding-bottom: 20%; 
+    max-width: 288px;   
+}
+
+#listen-wrapper .listen-container:nth-child(1) {
+    margin-bottom: 50px; 
+}
+
+#listen-wrapper .listen-container:nth-child(2) {
+    padding-bottom: 50px; 
 }
 
 .album-cover-and-text-wrapper {
