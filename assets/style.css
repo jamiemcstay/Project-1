@@ -538,7 +538,7 @@ audio {
     color: white;
     margin: 0 auto 0 auto;
     width: 90%; 
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .song-title {
@@ -552,24 +552,24 @@ audio {
 
 #watch {
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
-    padding-top: 40%; 
 }
 
 
 #watch-container {
-    width: 90%; 
-    display: flex; 
-    flex-direction: column;
+    width: 80%;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .music-video {
-    width: 100%;  
     aspect-ratio: 16/9;
     border: black 5px solid;
+    flex-basis: 500px; 
+    flex-shrink: 2; 
 }
 
 
@@ -777,14 +777,13 @@ input[type="email"] {
         justify-content: normal; 
     }
 
-    #watch-container {
-        width: 80%;
-        flex-direction: row;
+    /* #watch-container {
+        width: 60%;
         flex-wrap: wrap; 
-    }
+    } */
 
     .music-video {
-        width: 45%;
+        width: 100%
     }
 
     /*Footer styles*/
