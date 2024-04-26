@@ -142,11 +142,7 @@ main {
     margin: 0 auto 0p auto; 
     position: relative;
     top: 0;
-    background-image: url("images/black-background.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
@@ -311,12 +307,7 @@ figure {
     position: relative;
     margin-bottom: 0; 
     font-size: 130%; 
-    background-image: url("images/black-background.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-
+    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
@@ -463,12 +454,7 @@ figure {
 
 #listen {
     padding-top: 80px;
-    background-image: url("images/red-black-rock-1.png");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-
+    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 #listen-wrapper {
@@ -554,6 +540,10 @@ audio {
 }
 
 /*Watch section styles*/
+
+#watch {
+    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
+}
 
 
 #watch-container {
