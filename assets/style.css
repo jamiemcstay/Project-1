@@ -555,7 +555,7 @@ audio {
 }
 
 
-#watch-container {
+#watch-wrapper {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -777,10 +777,7 @@ input[type="email"] {
         justify-content: normal; 
     }
 
-    /* #watch-container {
-        width: 60%;
-        flex-wrap: wrap; 
-    } */
+    /
 
     .music-video {
         width: 100%
