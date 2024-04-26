@@ -4,6 +4,8 @@ Links:
 
 https://www.w3schools.com/html/html5_audio.asp
 https://www.youtube.com/watch?v=vGHrJDmepI0
+https://www.w3schools.com/howto/howto_js_alert.asp
+https://www.shecodes.io/athena/39031-how-to-create-an-alert-after-clicking-a-button-using-javascript#:~:text=In%20this%20example%2C%20we%20add,message%20%22Button%20clicked!%22.
 
 Welcome,
 
