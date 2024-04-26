@@ -426,24 +426,25 @@ figure {
     background-color: black;
     opacity: 0.66;
     z-index: 2;
+
 }
 
 /*STYLES FOR MUSIC PAGE*/
 
-#music-page-headings {
+.music-page-headings {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 60px;    
-    z-index: 2; 
-    position: relative; 
-}
-
-#music-page-headings > h2 {
-    font-weight: 350;
+    z-index: 2;
+    position: relative;
+    font-weight: 400;
     margin: 0 auto;
     text-transform: uppercase;
-    margin-bottom: 30px; 
+    margin-bottom: 60px;
+    color: white;
+    letter-spacing: 15px;
+    font-size: 200%
+
 }
+
 
 .album-title {
     font-size: 130%;
@@ -451,11 +452,12 @@ figure {
 }
 
 
-
 #listen {
-    padding-top: 80px;
+    padding-top: 130px;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
+
+
 
 #listen-wrapper {
     width: 100%;
@@ -472,9 +474,9 @@ figure {
     flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
     max-width: 288px;  
-
+    padding-bottom: 20%; 
 }
 
 .album-cover-and-text-wrapper {
@@ -543,6 +545,7 @@ audio {
 
 #watch {
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
+    padding-top: 40%; 
 }
 
 
