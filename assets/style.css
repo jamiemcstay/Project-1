@@ -1,7 +1,7 @@
-
-/* Override browser default styles*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*override default browser styles*/
+
 
 * {
     padding: 0;
@@ -10,12 +10,18 @@
 }
 
 body {
+    height: 100%; 
     min-height: 100vh;
-    color: white; 
     background-color: black;
     font-family: 'Inter';
+    color: white; 
+    /*add flex to move footer to end of page (main set to flex: 1 */
+    display: flex; 
+    flex-direction: column; 
 
 }
+
+/*classes for text and buttons*/
 
 .red {
     color: rgb(180, 0, 0);
@@ -25,22 +31,11 @@ body {
     color: white;
 }
 
-
-header {
-    background-color: black;  
-    position: fixed;
-    width: 100%; 
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    z-index: 5; 
-    height: auto; 
-    
-}
+/*headings default styles*/
 
 h1 {
-    padding: 0.8rem; 
-    text-decoration: none; 
+    padding: 0.8rem;
+    text-decoration: none;
     font-size: 300%;
     color: white;
     font-size: 290%;
@@ -48,51 +43,68 @@ h1 {
 
 h2 {
     font-size: 180%;
-    color: rgb(199, 0, 0);
+    color: white;
 }
 
 h3 {
-    color: white; 
-    font-weight: 200;;
+    color: white;
+    font-weight: 200;
+    ;
 }
+
+/*Links*/
 
 a {
     text-decoration: none;
-    color: rgb(199, 0, 0); 
+    color: rgb(199, 0, 0);
 
 }
+
+/*header styles*/
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 5;
+    height: auto;
+
+}
+
 
 #nav-items {
     list-style-type: none;
-    font-size: 110%; 
+    font-size: 110%;
     letter-spacing: 4px;
-    width: 100%; 
+    width: 100%;
     text-align: center;
-    font-size: 1.5rem; 
-    margin: 1rem auto 1rem auto; 
+    font-size: 1.5rem;
+    margin: 1rem auto 1rem auto;
 }
 
-#nav-items > li {
-    margin-bottom: 1em; 
+#nav-items>li {
+    margin-bottom: 1em;
 }
 
 
 /*nav bar styles with dropdown toggle*/
 
 nav {
-    position: absolute; 
-    left: 0; 
+    position: absolute;
+    left: 0;
     top: 100%;
-    width: 100%; 
+    width: 100%;
     display: none;
     padding: 0 1em;
 }
 
-/*Hamburger menu styles*/
 
 #nav-toggle:checked~nav {
-    display: block; 
-    background-color: black; 
+    display: block;
+    background-color: black;
 }
 
 #nav-toggle {
@@ -100,10 +112,11 @@ nav {
 }
 
 .nav-toggle-label {
-    color: white; 
+    color: white;
 }
 
-.fa-solid, .fas {
+.fa-solid,
+.fas {
     font-weight: 900;
     font-size: 35px;
     color: white;
@@ -112,34 +125,35 @@ nav {
 /*Main styles*/
 
 main {
-    
+
     /*make main element styles*/
     /*make main element take up any surplus space to push footer down*/
     width: 100%;
-    height: auto;     
+    height: auto;
+    flex: 1; 
 }
 
-#hero {   
-    width: 100%; 
-    position: relative; 
-    top: 50px; 
+#hero {
+    width: 100%;
+    position: relative;
+    top: 50px;
     margin-bottom: 40px;
 }
 
 #hero-image {
-    width: 100%;   
-    margin: 0;   
+    width: 100%;
+    margin: 0;
 }
 
 #hero-image img {
-    width: 100%; 
+    width: 100%;
 }
 
-/*Album release section styles*/ 
+/*Album release section styles*/
 
 #album-section {
-    width: 100%;  
-    margin: 0 auto 0p auto; 
+    width: 100%;
+    margin: 0 auto 0p auto;
     position: relative;
     top: 0;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
@@ -162,12 +176,12 @@ main {
     text-align: center;
     font-size: 180%;
     margin-bottom: 100px;
-    color: white; 
+    color: white;
     font-weight: 350;
     margin: 0 auto;
     text-transform: uppercase;
-    padding-bottom: 20px; 
-    max-width: 819.188px; 
+    padding-bottom: 20px;
+    max-width: 819.188px;
 }
 
 
@@ -175,36 +189,36 @@ main {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;   
+    margin: 0 auto;
     justify-content: space-around;
     gap: 7%;
     background-color: black;
-    padding: 30px 2%; 
+    padding: 30px 2%;
     max-width: 778.250px;
-    border-bottom: solid 2px white; 
-    border-top: solid 2px white; 
-    margin-bottom: 30px; 
+    border-bottom: solid 2px white;
+    border-top: solid 2px white;
+    margin-bottom: 30px;
 }
 
-.reviews > figure {
+.reviews>figure {
     padding-bottom: 5px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .mag-titles {
     text-transform: uppercase;
     font-size: 110%;
-    color: rgb(199, 0, 0); 
+    color: rgb(199, 0, 0);
     font-style: italic;
 }
 
 blockquote {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 
-blockquote > p {
-    display: flex; 
+blockquote>p {
+    display: flex;
     justify-content: space-around;
     gap: 5px;
 }
@@ -220,17 +234,17 @@ figure {
 
 
 .album-image {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     width: 80%;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;   
+    overflow: hidden;
     margin: 0 auto 40px auto;
-    padding-top: 20px; 
-    max-width: 819.188px; 
-    
+    padding-top: 20px;
+    max-width: 819.188px;
+
 }
 
 .album-image img {
@@ -240,16 +254,16 @@ figure {
 }
 
 #album-buttons {
-    display : flex; 
+    display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
     background-color: black;
 }
 
 
-#album-buttons > button {
+#album-buttons>button {
     width: 50%;
     letter-spacing: 3px;
     font-weight: 600;
@@ -259,7 +273,7 @@ figure {
     text-align: center;
     color: white;
     font-size: 130%;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 
@@ -268,9 +282,10 @@ figure {
 #singer-image {
     position: relative;
     width: 100%;
-    height: auto;;
+    height: auto;
+    ;
     overflow: hidden;
-    display: flex; 
+    display: flex;
 }
 
 #singer-image-container {
@@ -283,7 +298,7 @@ figure {
 #singer-image img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .overlay {
@@ -294,28 +309,28 @@ figure {
     height: 100%;
     background-color: black;
     opacity: 0.2;
-    
+
 }
 
 
 /*styles for tours section on homepage*/
 
-#tour-dates-home {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+.tour-dates-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-    margin-bottom: 0; 
-    font-size: 130%; 
+    margin-bottom: 0;
+    font-size: 130%;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
 #tour-dates-home h2 {
     margin: 30px 0 30px 0;
-    font-weight: 400; 
-    text-transform: uppercase; 
-    z-index: 2; 
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 2;
 }
 
 
@@ -323,26 +338,26 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; 
-    gap: 20px; 
-    margin-bottom: 50px; 
-    z-index: 3; 
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    z-index: 3;
 }
 
 .tours-info {
-    display: flex; 
-    flex-direction: column; 
-    gap: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.tour-button {    
+.tour-button {
     color: black;
     width: 100%;
     font-weight: 600;
     background-color: white;
-    padding: 10px 10px; 
-    border: 0; 
-    font-size: 110%; 
+    padding: 10px 10px;
+    border: 0;
+    font-size: 110%;
 }
 
 .black-overlay-home-page {
@@ -352,71 +367,60 @@ figure {
     background-color: black;
     opacity: 0.86;
     z-index: 1;
-    top: 0; 
-
+    top: 0;
 }
 
 
+
 .sold-out {
-    background-color: #682424; 
+    background-color: #682424;
 }
 
 .tours-more-dates {
     width: 60%;
     font-weight: 400;
     background-color: rgb(199, 0, 0);
-    padding: 10px 10px; 
+    padding: 10px 10px;
     border: 0;
-    text-align: center; 
-    color: white; 
+    text-align: center;
+    color: white;
     margin-bottom: 50px;
-    font-size: 110%; 
-    z-index: 3; 
+    font-size: 110%;
+    z-index: 3;
 }
 
 /*Tour dates page styles*/
 
 #tour-dates-main {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    margin-bottom: 0; 
-    font-size: 130%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 130%;
     background: url("images/lead-singer.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
 }
 
 
-/* #tour-dates-page-headings {
-    text-align: center; 
-    padding: 30px 0 0px 0;
-    z-index: 3; 
-    margin: 100px 0 30px 0;
-    text-transform: uppercase;
-    z-index: 3;
-    border-bottom: solid white; 
-    font-size: 80%; 
-} */
-
 .tour-page-heading {
-    width: 60%; 
+    width: 60%;
     font-weight: 350;
     margin: 0 auto;
     text-transform: uppercase;
     max-width: 819.188px;
-    margin-bottom: 30px; 
-    width: 100%; 
-    z-index: 3; 
+    margin-bottom: 30px;
+    width: 100%;
+    z-index: 3;
     width: 80%;
     text-align: center;
     font-size: 180%;
-    color: white; 
+    color: white;
     max-width: 819.188px;
     padding-top: 130px;
-    
+
 }
 
 .black-overlay-tours-page {
@@ -441,14 +445,12 @@ figure {
     margin-bottom: 60px;
     color: white;
     letter-spacing: 15px;
-    font-size: 200%
-
+    font-size: 200%;
 }
 
 
 .album-title {
     font-size: 130%;
-
 }
 
 
@@ -462,28 +464,28 @@ figure {
 #listen-wrapper {
     width: 100%;
     height: auto;
-    max-width: 780px; 
+    max-width: 780px;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .listen-container {
-    width: 90%; 
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
-    max-width: 288px;   
+    max-width: 288px;
 }
 
 #listen-wrapper .listen-container:nth-child(1) {
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 #listen-wrapper .listen-container:nth-child(2) {
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
 }
 
 .album-cover-and-text-wrapper {
@@ -492,7 +494,7 @@ figure {
     width: 100%;
     margin: 0 auto 20px auto;
     gap: 15px;
-    
+
 }
 
 
@@ -500,12 +502,12 @@ figure {
     width: 45%;
     height: auto;
     border: solid 2px white;
-    
+
 }
 
 .album-cover img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 .album-title {
@@ -513,17 +515,17 @@ figure {
     text-align: center;
     font-size: 110%;
     line-height: 1.4rem;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    font-weight: 200; 
-    border-right: solid white 2px; 
-    padding-right: 3px; 
+    justify-content: space-between;
+    font-weight: 200;
+    border-right: solid white 2px;
+    padding-right: 3px;
 }
 
 .album-title p:nth-child(1) {
-    border-bottom: white solid 2px; 
-    padding-bottom: 10px; 
+    border-bottom: white solid 2px;
+    padding-bottom: 10px;
 }
 
 .album-title p:nth-child(2) {
@@ -537,14 +539,14 @@ audio {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     margin: 0 auto 0 auto;
-    width: 90%; 
+    width: 90%;
     margin-bottom: 15px;
 }
 
 .song-title {
     text-align: left;
     font-size: 90%;
-    align-self:flex-start;
+    align-self: flex-start;
     margin: 0 0 5px 20px;
 }
 
@@ -568,16 +570,16 @@ audio {
 .music-video {
     aspect-ratio: 16/9;
     border: black 5px solid;
-    flex-basis: 500px; 
-    flex-shrink: 2; 
+    flex-basis: 500px;
+    flex-shrink: 2;
 }
 
 
-.music-video > .youtube-video {
+.music-video>.youtube-video {
     width: 100%;
-    height: 100%;   
+    height: 100%;
 }
-    
+
 .album-section {
     margin-bottom: 300px;
 }
@@ -594,11 +596,39 @@ audio {
     letter-spacing: 3px;
     font-weight: 800;
     background-color: rgb(199, 0, 0);
-    padding: 10px 10px; 
+    padding: 10px 10px;
     border: 0;
-    text-align: center; 
-    color: white; 
+    text-align: center;
+    color: white;
     margin: 0 auto 0 auto;
+}
+
+/*Response.html page styles*/
+
+.response-section {
+    position: relative; 
+    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
+    
+}
+
+.response-page-heading {
+    position: absolute; 
+    top: 5px; 
+    left: 50%; 
+}
+
+.response-page-part-2 {
+    background: black url("images/red-black-rock-1.png") no-repeat fixed center center/cover;
+    padding-bottom: 50px;
+}
+
+.response-black-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.86;
+    z-index: 1;
 }
 
 /*footer styles*/
@@ -611,39 +641,40 @@ footer {
     height: auto;
     padding-bottom: 2%;
     z-index: 3;
+    flex-shrink: 0; 
 }
 
-footer > h2 {
+footer>h2 {
     font-size: 130%;
     font-weight: 300;
     text-align: center;
     margin-bottom: 30px;
     padding: 50px 10px 5px 10px;
-    
+
 }
 
 form {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    margin: 0 auto 30px auto; 
-    width: fit-content;
-    max-width: 819.19px; 
-    font-size: 130%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px auto;
+    width: fit-content; 
+    max-width: 819.19px;
+    font-size: 130%;
 }
 
 .form-block {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 label {
     width: 50px;
     text-align: left;
     margin-bottom: 20px;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
 }
 
 input[type="text"],
@@ -653,39 +684,40 @@ input[type="email"] {
     margin-bottom: 20px;
 }
 
-#sign-up-button {
-    color: black;
-    width: 100%;
+.sign-up-button {
+    width: 243px;
     letter-spacing: 3px;
     font-weight: 500;
     background-color: rgb(199, 0, 0);
-    padding: 10px 10px; 
+    padding: 10px 10px;
     border: 0;
-    text-align: center; 
-    color: white; 
-    margin-bottom: 50px; 
-    align-self: flex-end;
-    margin-left: 50px;
-    font-size: 110%; 
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    /* align-self: baseline; */
+    /* margin-left: 50px; */
+    font-size: 110%;
+    text-transform: uppercase;
+    
 }
 
 .footer-text {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     width: 80%;
     margin: 0 auto 0 auto;
     list-style: none;
-    gap: 10px; 
+    gap: 10px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .footer-icons {
-    color: rgb(199, 0, 0);  
-    display: flex; 
+    color: rgb(199, 0, 0);
+    display: flex;
     justify-content: space-between;
-    list-style: none; 
-    padding: 0 5%; 
+    list-style: none;
+    padding: 0 5%;
 }
 
 
@@ -699,7 +731,7 @@ input[type="email"] {
 
     /*header*/
     header {
-        display: flex; 
+        display: flex;
         justify-content: space-between;
     }
 
@@ -708,61 +740,61 @@ input[type="email"] {
         position: relative;
         width: 60%;
         padding-right: 10px;
-        padding-left: 30px; 
+        padding-left: 30px;
         font-size: 50%;
         max-width: 460.80px;
     }
 
     #nav-items {
-        display: flex; 
-        justify-content: space-evenly; 
+        display: flex;
+        justify-content: space-evenly;
         /* width: 100%;  */
         font-size: 1.2rem;
-        
+
     }
 
     #nav-items li {
-        margin-bottom: 0; 
+        margin-bottom: 0;
     }
 
     .nav-toggle-label {
-        display: none; 
+        display: none;
     }
 
 
-/*ALBUM SECTION STYLES*/
+    /*ALBUM SECTION STYLES*/
 
-#album-buttons {
-    flex-direction: row; 
-    width: 80%;
-    max-width: 819.18px; 
-    margin: 0 auto; 
+    #album-buttons {
+        flex-direction: row;
+        width: 80%;
+        max-width: 819.18px;
+        margin: 0 auto;
 
-}
+    }
 
     /*Tour dates info containers home and main page styles*/
 
     .tours-info-container {
         flex-direction: row;
-        text-align: left; 
+        text-align: left;
         justify-content: space-between;
         margin-bottom: 50px;
         width: 50%;
         border-bottom: solid white 1px;
-        padding-bottom: 20px; 
-        max-width: 720px; 
+        padding-bottom: 20px;
+        max-width: 720px;
     }
 
     .tours-more-dates {
-        width: 50%; 
-        max-width: 720px; 
+        width: 50%;
+        max-width: 720px;
 
     }
 
     /*TOUR DATES MAIN PAGE STYLES*/
 
     #tour-dates-page-headings {
-        width: 50%;     
+        width: 50%;
     }
 
     /*Music page styles*/
@@ -770,14 +802,13 @@ input[type="email"] {
     #listen-wrapper {
         width: 80%;
         display: flex;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     .listen-container {
-        justify-content: normal; 
+        justify-content: normal;
     }
 
-    /
 
     .music-video {
         width: 100%
@@ -795,7 +826,7 @@ input[type="email"] {
         justify-content: space-evenly;
         gap: 20%;
         padding: 0 2% 0 2%;
-        
+
     }
 }
 
@@ -803,41 +834,41 @@ input[type="email"] {
 
     /*Nav bar styles*/
     nav {
-        margin-right: 50px; 
+        margin-right: 50px;
     }
 
     form {
-        flex-direction: row; 
-        width: 80%; 
-        gap: 2%; 
+        flex-direction: row;
+        width: 80%;
+        gap: 2%;
     }
 
     .form-block {
-        align-self: baseline; 
+        align-self: baseline;
     }
 
     #sign-up-button {
-        margin-bottom: 0; 
-        align-self: baseline; 
+        margin-bottom: 0;
+        align-self: baseline;
     }
 
     .listen-wrapper {
         width: 60%;
-        justify-content: space-between; 
-        max-width: 864px; 
+        justify-content: space-between;
+        max-width: 864px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-   
+
 
     #nav-items {
         /*add more space between items in nav bar*/
-        display: flex; 
-        justify-content: space-between; 
+        display: flex;
+        justify-content: space-between;
     }
 
     .footer-text {
-        gap: 30%; 
+        gap: 30%;
     }
 }
