@@ -23,16 +23,18 @@
 <body>
     <!--header for logo and nav items-->
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Logo and link to homepage">
             <h1>Blood Red</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <!--Creat input and label to be used for hamburger menu-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle"
+            aria-label="Click to show reveal links to website pages">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="nav-items">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tours.html" class="active">Tours</a></li>
-                <li><a href="music.html">Music</a></li>
+                <li><a href="index.html" aria-label="Visit to homepage">Home</a></li>
+                <li><a href="tours.html" class="active" aria-label="Visit tours page">Tours</a></li>
+                <li><a href="music.html" aria-label="Visit music page">Music</a></li>
             </ul>
         </nav>
     </header>
@@ -141,33 +143,34 @@
 
             <div class="form-block">
                 <label for="name" value="NAME">Name</label>
-                <input type="text" id="name">
+                <input type="text" id="name" aria-label="Enter your name">
             </div>
 
             <div class="form-block">
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" aria-label="Enter your email">
             </div>
 
-            <input type="submit" value="SIGN UP" id="sign-up-button">
+            <input type="submit" value="SIGN UP" id="sign-up-button" aria-label="Sign up to newsletter">
 
         </form>
         <ul class="footer-text">
             <li><span>&copy; 2024 Blood Red</span></li>
-            <li><span>Cookie Policy</span></li>
-            <li><span>Design by <a href="www.facebook.com">Design PIG</span></li>
+            <li><span><a href="https://www.cookiebot.com" aria-label="Link to websites cookie policy">Cookie
+                        Policy</a></span></li>
+            <li><span>Design by <a href="www.facebook.com" aria-label="Visit website designers website">Jamie
+                        McStay</a></span></li>
         </ul>
         <ul class="footer-icons">
-            <li><i class="fa-brands fa-spotify"></i></li>
-            <li><i class="fa-brands fa-tiktok"></i></li>
-            <li><i class="fa-brands fa-youtube"></i></li>
-            <li><i class="fa-brands fa-soundcloud"></i></li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-spotify" aria-label="Visit Blood Red on Spotify"></i></li>
+            <li><i class="fa-brands fa-tiktok" aria-label="Visit Blood Red on TikTok"></i>></i></li>
+            <li><i class="fa-brands fa-youtube" aria-label="Visit Blood Red on YouTube"></i></li>
+            <li><i class="fa-brands fa-soundcloud" aria-label="Visit Blood Red on SoundCloud"></i></li>
+            <li><i class="fa-brands fa-facebook" aria-label="Visit Blood Red on Facebook"></i></li>
+            <li><i class="fa-brands fa-twitter" aria-label="Visit Blood Red on Twitter"></i></li>
+            <li><i class="fa-brands fa-instagram" aria-label="Visit Blood Red on Instagram"></i></li>
         </ul>
     </footer>
-    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,180 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jamie McStay">
-<!--Meta tags for search engines-->
+    <!--Meta tags for search engines-->
     <meta name="description"
         content="Blood Red , rock band from Dublin, Ireland. Listen to their music, watch their videos, find out about tour dates, and sign up for newsletter">
-    <meta name="keywords" content="Blood Red tickets, Blood Red tour, rock band, Dublin rock music, alternative rock bands, listen to Blood Red, watch blood red">
+    <meta name="keywords"
+        content="Blood Red tickets, Blood Red tour, rock band, Dublin rock music, alternative rock bands, listen to Blood Red, watch blood red">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1292c16ab0.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"> -->
-<!--Favicon-->
+    <!--Favicon-->
     <title>Blood Red</title>
 </head>
+
 <body>
-    
+
     <!--header for logo and nav items-->
     <header>
         <a href="index.html" aria-label="Logo and link to homepage">
             <h1>Blood Red</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <!--Creat input and label to be used for hamburger menu-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle"
+            aria-label="Click to show reveal links to website pages">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <!-- <label for="nav-toggle" class="nav-toggle-label">x</label> -->
         <nav>
             <ul id="nav-items">
                 <li><a href="index.html" class="active" aria-label="Link to homepage">Home</a></li>
-                <li><a href="tours.html" aria-label="Link to tours page">Tours</a></li>
-                <li><a href="music.html" aria-label="Link to music page">Music</a></li>           
+                <li><a href="tours.html" aria-label="Visit tours page">Tours</a></li>
+                <li><a href="music.html" aria-label="Visit music page">Music</a></li>
             </ul>
         </nav>
     </header>
 
-    <main> 
-        <section id="album-section">            
-            <div id="album-section-container">         
-                    <h2 class="album-section-heading">The new album 'Crimson Echoes' available online and in stores now</h2>                
-                    <div class="album-image">
-                        <img src="assets/images/album-cover.png">
-                    </div>   
-                        <div class="reviews"> 
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                Rolling Stone
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                NME
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                Billboard
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                Kerrang
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                XLR8R
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <blockquote>
-                                <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
-                                </blockquote>
-                                <figcaption class="mag-titles">
-                                Hotpress
-                                </figcaption>
-                            </figure>
-                        </div>    
-                    <div id="album-buttons">
-                        <button>Stream</button>
-                        <button>Buy</button>
-                    </div>
-            </div>          
+    <main>
+        <section id="album-section">
+            <div id="album-section-container">
+                <h2 class="album-section-heading">The new album 'Crimson Echoes' available online and in stores now</h2>
+                <div class="album-image">
+                    <img src="assets/images/album-cover.png" alt="Crimson Echoes album cover">
+                </div>
+                <div class="reviews">
+                    <figure aria-label="Rolling Stone Magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            Rolling Stone
+                        </figcaption>
+                    </figure>
+                    <figure aria-label="NME Magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            NME
+                        </figcaption>
+                    </figure>
+                    <figure aria-label="Billboard Magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            Billboard
+                        </figcaption>
+                    </figure>
+                    <figure aria-label="Kerrang Magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            Kerrang
+                        </figcaption>
+                    </figure>
+                    <figure aria-label="XLR8R magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            XLR8R
+                        </figcaption>
+                    </figure>
+                    <figure aria-label="Hotpress magazine review of Crimson Echoes album">
+                        <blockquote>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i
+                                    class="fa-solid fa-star stars"></i></p>
+                        </blockquote>
+                        <figcaption class="mag-titles">
+                            Hotpress
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="album-buttons">
+                    <button class="red-button" aria-label="Stream Crimson Echoes">Stream</button>
+                    <button class="red-button" aria-label="Buy Crimson Echoes">Buy</button>
+                </div>
+            </div>
         </section>
         <section id="singer-image">
-            <div id="singer-image-container">  
-                <img src="assets/images/lead-singer.png">
-                
+            <div id="singer-image-container">
+                <img src="assets/images/lead-singer.png" alt="Image of Blood Red lead singer">
             </div>
             <div class="black-overlay"></div>
-        </section>    
-        <section id="tour-dates-home">
-            <h2>Tour Dates</h2>               
-                    <div class="tours-info-container">
-                        <div class="tours-info">
-                            <p class="red">June 1, 2024</p>
-                            <p>The Point</p>
-                            <p class="red">Dublin, Ireland</p>
-                        </div>
-                        <div class="tour-buttons">
-                            <button class="tour-button">TICKETS</button>
-                        </div>
-                    </div>
-                    <div class="tours-info-container">
-                        <div class="tours-info">
-                            <p class="red">June 5, 2024</p>
-                            <p>Arena Concert Hall</p>
-                            <p class="red">Manchester, UK</p>
-                        </div>
-                        <div class="tour-buttons">
-                            <button class="tour-button sold-out">SOLD OUT</button>
-                        </div>
-                    </div>
-                    <div class="tours-info-container">
-                        <div class="tours-info">
-                            <p class="red">June 10, 2024</p>
-                            <p>The O2</p>
-                            <p class="red">London, UK</p>
-                        </div>
-                        <div class="tour-buttons">
-                            <button class="tour-button">TICKETS</button>
-                        </div>
-                        
-                    </div>
-                    <button class="tours-more-dates">MORE DATES</button>
-                            
         </section>
-        
+        <section id="tour-dates-home">
+            <h2>Tour Dates</h2>
+            <div class="tours-info-container">
+                <div class="tours-info">
+                    <p class="red">June 1, 2024</p>
+                    <p>The Point</p>
+                    <p class="red">Dublin, Ireland</p>
+                </div>
+                <div class="tour-buttons">
+                    <button class="tour-button white-button" aria-label="Buy concert tickets">TICKETS</button>
+                </div>
+            </div>
+            <div class="tours-info-container">
+                <div class="tours-info">
+                    <p class="red">June 5, 2024</p>
+                    <p>Arena Concert Hall</p>
+                    <p class="red">Manchester, UK</p>
+                </div>
+                <div class="tour-buttons">
+                    <button class="tour-button sold-out" aria-label="Tickets sold out">SOLD OUT</button>
+                </div>
+            </div>
+            <div class="tours-info-container">
+                <div class="tours-info">
+                    <p class="red">June 10, 2024</p>
+                    <p>The O2</p>
+                    <p class="red">London, UK</p>
+                </div>
+                <div class="tour-buttons">
+                    <button class="tour-button white-button" aria-label="Buy concert tickets">TICKETS</button>
+                </div>
+
+            </div>
+            <button class="tours-more-dates red-button" aria-label="More concert dates">MORE DATES</button>
+
+        </section>
+
     </main>
     <footer>
-      <h2> SIGN UP FOR NEWSLETTER</h2>
-      <form>
-        
-        <div class="form-block">
-            <label for="name">Name</label>
-            <input type="text" id="name">
-        </div>
+        <h2> SIGN UP FOR NEWSLETTER</h2>
+        <form id="sign-up-form" method="GET" action="response.html">
 
-        <div class="form-block">
-            <label for="name">Email</label>
-            <input type="email" id="email">
-        </div>
+            <div class="form-block">
+                <label for="name" value="NAME">Name</label>
+                <input type="text" id="name" aria-label="Enter your name">
+            </div>
 
-        <input type="submit" value="SIGN UP" id="sign-up-button">
-        
-      </form> 
-      <ul class="footer-text">
+            <div class="form-block">
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-label="Enter your email">
+            </div>
+
+            <input type="submit" value="SIGN UP" id="sign-up-button" aria-label="Sign up to newsletter">
+
+        </form>
+        <ul class="footer-text">
             <li><span>&copy; 2024 Blood Red</span></li>
-            <li><span>Cookie Policy</span></li>
-            <li><span>Design by <a href="www.facebook.com">Design PIG</span></li>
-      </ul>
-      <ul class="footer-icons">
-        <li><i class="fa-brands fa-spotify"></i></li>
-        <li><i class="fa-brands fa-tiktok"></i></li>
-        <li><i class="fa-brands fa-youtube"></i></li>
-        <li><i class="fa-brands fa-soundcloud"></i></li>
-        <li><i class="fa-brands fa-facebook"></i></li>
-        <li><i class="fa-brands fa-twitter"></i></li>
-        <li><i class="fa-brands fa-instagram"></i></li>
-      </ul>   
+            <li><span><a href="https://www.cookiebot.com" aria-label="Link to websites cookie policy">Cookie
+                        Policy</a></span></li>
+            <li><span>Design by <a href="www.facebook.com" aria-label="Visit website designers website">Jamie
+                        McStay</a></span></li>
+        </ul>
+        <ul class="footer-icons">
+            <li><i class="fa-brands fa-spotify" aria-label="Visit Blood Red on Spotify"></i></li>
+            <li><i class="fa-brands fa-tiktok" aria-label="Visit Blood Red on TikTok"></i>></i></li>
+            <li><i class="fa-brands fa-youtube" aria-label="Visit Blood Red on YouTube"></i></li>
+            <li><i class="fa-brands fa-soundcloud" aria-label="Visit Blood Red on SoundCloud"></i></li>
+            <li><i class="fa-brands fa-facebook" aria-label="Visit Blood Red on Facebook"></i></li>
+            <li><i class="fa-brands fa-twitter" aria-label="Visit Blood Red on Twitter"></i></li>
+            <li><i class="fa-brands fa-instagram" aria-label="Visit Blood Red on Instagram"></i></li>
+        </ul>
     </footer>
 </body>
+
 </html>
