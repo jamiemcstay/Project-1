@@ -124,12 +124,10 @@ nav {
 
 /*Main styles*/
 
-main {
-
-    /*make main element styles*/
-    /*make main element take up any surplus space to push footer down*/
+main {  
     width: 100%;
     height: auto;
+    /*make main element take up any surplus space to push footer down*/
     flex: 1; 
 }
 
