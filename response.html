@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jamie McStay">
+    <!--Meta tags for search engines-->
+    <meta name="description"
+        content="Blood Red , rock band from Dublin, Ireland. Listen to their music, watch their videos, find out about tour dates, and sign up for newsletter">
+    <meta name="keywords"
+        content="Blood Red tickets, Blood Red tour, rock band, Dublin rock music, alternative rock bands, listen to Blood Red, watch blood red">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1292c16ab0.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"> -->
+    <!--Favicon-->
+    <title>Blood Red</title>
+</head>
+
+<body>
+
+    <!--header for logo and nav items-->
+    <header>
+        <a href="index.html" aria-label="Logo and link to homepage">
+            <h1>Blood Red</h1>
+        </a>
+        <!--Creat input and label to be used for hamburger menu-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle"
+            aria-label="Click to show reveal links to website pages">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="nav-items">
+                <li><a href="index.html" class="active" aria-label="Link to homepage">Home</a></li>
+                <li><a href="tours.html" aria-label="Visit tours page">Tours</a></li>
+                <li><a href="music.html" aria-label="Visit music page">Music</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="singer-image">
+            <div id="singer-image-container">
+                <img src="assets/images/lead-singer.png" alt="Image of Blood Red lead singer">
+            </div>
+            <div class="black-overlay"></div>
+        </section>
+    </main>
+    <footer>
+        <h2> SIGN UP FOR NEWSLETTER</h2>
+        <form id="sign-up-form" method="GET" action="response.html">
+
+            <div class="form-block">
+                <label for="name" value="NAME">Name</label>
+                <input type="text" id="name" aria-label="Enter your name">
+            </div>
+
+            <div class="form-block">
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-label="Enter your email">
+            </div>
+
+            <input type="submit" value="SIGN UP" id="sign-up-button" aria-label="Sign up to newsletter">
+
+        </form>
+        <ul class="footer-text">
+            <li><span>&copy; 2024 Blood Red</span></li>
+            <li><span><a href="https://www.cookiebot.com" aria-label="Link to websites cookie policy">Cookie
+                        Policy</a></span></li>
+            <li><span>Design by <a href="www.facebook.com" aria-label="Visit website designers website">Jamie
+                        McStay</a></span></li>
+        </ul>
+        <ul class="footer-icons">
+            <li><i class="fa-brands fa-spotify" aria-label="Visit Blood Red on Spotify"></i></li>
+            <li><i class="fa-brands fa-tiktok" aria-label="Visit Blood Red on TikTok"></i>></i></li>
+            <li><i class="fa-brands fa-youtube" aria-label="Visit Blood Red on YouTube"></i></li>
+            <li><i class="fa-brands fa-soundcloud" aria-label="Visit Blood Red on SoundCloud"></i></li>
+            <li><i class="fa-brands fa-facebook" aria-label="Visit Blood Red on Facebook"></i></li>
+            <li><i class="fa-brands fa-twitter" aria-label="Visit Blood Red on Twitter"></i></li>
+            <li><i class="fa-brands fa-instagram" aria-label="Visit Blood Red on Instagram"></i></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
+<h1>Hello world</h1>
