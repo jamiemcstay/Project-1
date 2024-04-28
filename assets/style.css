@@ -608,94 +608,42 @@ audio {
     background: black url(images/black-background.jpg) no-repeat fixed center center / cover;
     height: 80vh;
     width: 100%;
+    margin-top: 100px;
     text-align: center;  
 }
 
 .response-part-1 {
-    height: 40%;
-    background-color: blue;
-    /* margin-top: 25.875%; */
+    /* background: black url(images/black-background.jpg) no-repeat fixed center center / cover; */
+    width: 100%;
+    height: 50%; 
+    background-color: blue; 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 20% 20%; */
-    /* flex-grow: 2;*/
+    height: 30%; 
 }
 
 .response-part-2 {
-    height: 30%; 
-    background-color: yellow; 
-}
 
-response-buttons-wrapper {
-    height: 30%; 
-    background-color: yellow; 
-}
-
-.response-buttons-wrapper {
-    background: black url(images/red-black-rock-1.png) no-repeat fixed center center / cover; */
-    position: relative;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    background-color: blue;
-    /* flex-grow: 5;
-}
-
-.response-button {
-    width: 243px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    background-color: rgb(199, 0, 0);
-    padding: 10px 10px;
-    border: 0;
-    text-align: center;
-    color: white;
-    font-size: 110%;
-    text-transform: uppercase;
-    height: 20%;
-
-}
-
-/* .response-part-1 {
-    background: black url(images/black-background.jpg) no-repeat fixed center center / cover;
-    width: 100%;
-    height: 60%;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-    flex-direction: column;
-
-}
-
-.response-buttons-wrapper {
-
-    background: black url(images/red-black-rock-1.png) no-repeat fixed center center / cover;
+    /* background: black url(images/red-black-rock-1.png) no-repeat fixed center center / cover;
+    padding-bottom: 50px;
+    padding-top: 100px;*/
     position: relative;
     width: 100%; 
-    height: 40%; 
+    height: 70%; 
+    background-color: green; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column; 
 }
 
-/* .response-p {
-    font-size: 250%;
-    font-weight: 350;
-    width: 80%;
-    text-transform: uppercase;
-    background-color: blue;
-    width: 80%;
-    margin-bottom: 5%;
 
-} 
+/* .response-page-heading {
+    position: absolute; 
+    top: 5px; 
+    left: 50%; 
+} */
 
 
 .response-sub-heading {
@@ -703,22 +651,18 @@ response-buttons-wrapper {
     font-weight: 200;
     z-index: 2;
     position: relative;
-    width: 70%;
-    background-color: green;
-    margin-bottom: 2%;
 }
 
 .response-buttons-wrapper {
     width: 70%;
-    height: 90%;
- 
+    height: 60%;
+    background-color: yellow;
     display: flex;
-    
+    /* flex-direction: column; */
     justify-content: space-evenly;
-
+    /* height: auto; */
     flex-wrap: wrap;
     align-items: center;
-    z-index: 2; 
 }
 
 .response-button {
@@ -730,6 +674,9 @@ response-buttons-wrapper {
     border: 0;
     text-align: center;
     color: white;
+    /* margin-bottom: 50px; */
+    /* align-self: baseline; */
+    /* margin-left: 50px; */
     font-size: 110%;
     text-transform: uppercase;
     height: 20%;
@@ -744,17 +691,13 @@ response-buttons-wrapper {
     opacity: 0.86;
     z-index: 1;
     top: 0; 
-}*/
+}
 
 .response-footer {
     padding-top: 5%;  
 }
 
-.response-singer-image {
-    width: 100%;
-    height: 40%; 
-    background-color: blue;
-} 
+
 
 /*footer styles*/
 
@@ -769,7 +712,7 @@ footer {
     flex-shrink: 0; 
 }
 
-footer > h2 {
+footer>h2 {
     font-size: 130%;
     font-weight: 300;
     text-align: center;
@@ -809,7 +752,7 @@ input[type="email"] {
     margin-bottom: 20px;
 }
 
-.subscribe-button {
+.sign-up-button {
     width: 243px;
     letter-spacing: 3px;
     font-weight: 500;
