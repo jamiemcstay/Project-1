@@ -10,14 +10,14 @@
 }
 
 body {
-    height: 100%; 
+    height: 100%;
     min-height: 100vh;
     background-color: black;
     font-family: 'Inter';
-    color: white; 
+    color: white;
     /*add flex to move footer to end of page (main set to flex: 1 */
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -44,6 +44,7 @@ h1 {
 h2 {
     font-size: 180%;
     color: white;
+    text-transform: uppercase; 
 }
 
 h3 {
@@ -124,12 +125,12 @@ nav {
 
 /*Main styles*/
 
-main {  
+main {
     width: 100%;
     height: auto;
     /*make main element take up any surplus space to push footer down*/
-    flex: 1; 
-    /*push main down beloqw fixed header*/ 
+    flex: 1;
+    /*push main down beloqw fixed header*/
     padding-top: 80px;
 }
 
@@ -605,23 +606,19 @@ audio {
 
 /*Response.html page styles*/
 
-    
+
 .response-section {
     background: black url(images/black-background.jpg) no-repeat fixed center center / cover;
     height: 75vh;
     width: 100%;
-    text-align: center;  
+    text-align: center;
 }
 
 .response-part-1 {
-    /* background: black url(images/black-background.jpg) no-repeat fixed center center / cover; */
+    /* background: black url(images/black-background.jpg) no-repeat fixed center center / cover; */ */
     width: 100%;
-    height: 50%; 
-    background-color: blue; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30%; 
+    height: 70%;
+    background-color: blue;
 }
 
 .response-part-2 {
@@ -630,28 +627,34 @@ audio {
     padding-bottom: 50px;
     padding-top: 100px;*/
     position: relative;
-    width: 100%; 
-    height: 70%; 
-    background-color: green; 
+    width: 100%;
+    height: 30%;
+    background-color: green;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
+.response-text-wrapper {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin: 25% auto; */
+    padding: 10%;
+    margin: 0 auto;
+    height: 100%; 
+}
 
-/* .response-page-heading {
-    position: absolute; 
-    top: 5px; 
-    left: 50%; 
-} */
+.response-h2 {
+    font-weight: 400;
+    font-size: 170%; 
+}
 
-
-.response-sub-heading {
-    color: white;
-    font-weight: 200;
-    z-index: 2;
-    position: relative;
+.response-text-wrapper > p{
+    font-weight: 200; 
 }
 
 .response-buttons-wrapper {
@@ -691,11 +694,11 @@ audio {
     background-color: black;
     opacity: 0.86;
     z-index: 1;
-    top: 0; 
+    top: 0;
 }
 
 .response-footer {
-    padding-top: 5%;  
+    padding-top: 5%;
 }
 
 
@@ -710,7 +713,7 @@ footer {
     height: auto;
     padding-bottom: 2%;
     z-index: 3;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 footer>h2 {
@@ -728,7 +731,7 @@ form {
     justify-content: center;
     align-items: center;
     margin: 0 auto 30px auto;
-    width: fit-content; 
+    width: fit-content;
     max-width: 819.19px;
     font-size: 130%;
 }
@@ -753,7 +756,7 @@ input[type="email"] {
     margin-bottom: 20px;
 }
 
-.sign-up-button {
+.subscribe-button {
     width: 243px;
     letter-spacing: 3px;
     font-weight: 500;
@@ -767,7 +770,7 @@ input[type="email"] {
     /* margin-left: 50px; */
     font-size: 110%;
     text-transform: uppercase;
-    
+
 }
 
 .footer-text {
