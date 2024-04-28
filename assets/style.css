@@ -605,16 +605,39 @@ audio {
 
     
 .response-section {
-    position: relative;
     background: black url(images/black-background.jpg) no-repeat fixed center center / cover;
-    height: 0vh;
+    height: 80vh;
     width: 100%;
-    /* flex-basis: 0; */
     margin-top: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    text-align: center;  
 }
-    
+
+.response-part-1 {
+    /* background: black url(images/black-background.jpg) no-repeat fixed center center / cover; */
+    width: 100%;
+    height: 50%; 
+    background-color: blue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%; 
+}
+
+.response-part-2 {
+
+    /* background: black url(images/red-black-rock-1.png) no-repeat fixed center center / cover;
+    padding-bottom: 50px;
+    padding-top: 100px;*/
+    position: relative;
+    width: 100%; 
+    height: 70%; 
+    background-color: green; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; 
+}
+
 
 /* .response-page-heading {
     position: absolute; 
@@ -622,13 +645,6 @@ audio {
     left: 50%; 
 } */
 
-.response-page-part-2 {
-
-    background: black url(images/red-black-rock-1.png) no-repeat fixed center center / cover;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    position: relative;
-}
 
 .response-sub-heading {
     color: white;
@@ -637,6 +653,35 @@ audio {
     position: relative;
 }
 
+.response-buttons-wrapper {
+    width: 70%;
+    height: 60%;
+    background-color: yellow;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* height: auto; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.response-button {
+    width: 243px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: rgb(199, 0, 0);
+    padding: 10px 10px;
+    border: 0;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 50px; */
+    /* align-self: baseline; */
+    /* margin-left: 50px; */
+    font-size: 110%;
+    text-transform: uppercase;
+    height: 20%;
+
+}
 
 .response-black-overlay {
     position: absolute;
@@ -645,6 +690,11 @@ audio {
     background-color: black;
     opacity: 0.86;
     z-index: 1;
+    top: 0; 
+}
+
+.response-footer {
+    padding-top: 5%;  
 }
 
 
