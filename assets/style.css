@@ -608,7 +608,7 @@ audio {
     
 .response-section {
     background: black url(images/black-background.jpg) no-repeat fixed center center / cover;
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     text-align: center;  
 }
