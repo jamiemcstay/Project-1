@@ -57,7 +57,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: rgb(199, 0, 0);
+    color: white; 
 
 }
 
@@ -83,13 +83,23 @@ header {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto 1rem auto; 
 }
 
-#nav-items>li {
+
+#nav-items > li {
     margin-bottom: 1em;
 }
 
+.nav-links:hover {
+    
+    color:rgb(180, 0, 0); 
+    border-bottom: rgb(180, 0, 0) solid 2px; 
+}
+
+.nav-links:clicked {
+    color: rgb(180, 0, 0); 
+}
 
 /*nav bar styles with dropdown toggle*/
 
@@ -116,11 +126,14 @@ nav {
     color: white;
 }
 
-.fa-solid,
-.fas {
+.fa-solid {
     font-weight: 900;
     font-size: 35px;
     color: white;
+}
+
+.fa-solid:clicked {
+    color: red; 
 }
 
 /*Main styles*/
@@ -898,6 +911,7 @@ input[type="email"] {
         display: flex;
         justify-content: space-evenly;
         font-size: 1.2rem;
+        
 
     }
 
