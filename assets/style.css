@@ -629,7 +629,6 @@ audio {
 }
 
 .watch-more-button {
-    color: black;
     width: 50%;
     letter-spacing: 3px;
     font-weight: 800;
@@ -639,6 +638,8 @@ audio {
     text-align: center;
     color: white;
     margin: 0 auto 0 auto;
+    display: inline-block; 
+    text-transform: uppercase; 
 
 }
 
