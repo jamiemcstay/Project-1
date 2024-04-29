@@ -254,7 +254,7 @@ figure {
 
 }
 
-#album-buttons {
+.album-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,8 +263,12 @@ figure {
     background-color: black;
 }
 
+.album-button > a {
+    width: 100%; 
+}
 
-#album-buttons > button {
+
+.album-buttons > button {
     width: 50%;
     letter-spacing: 3px;
     font-weight: 600;
@@ -600,13 +604,13 @@ audio {
     margin-bottom: 300px;
 }
 
-#watch-more-button-container {
+.watch-more-button-container {
     width: 100%;
     text-align: center;
     margin: 0 auto 30px auto;
 }
 
-#watch-more-button {
+.watch-more-button {
     color: black;
     width: 50%;
     letter-spacing: 3px;
@@ -620,8 +624,10 @@ audio {
     
 }
 
-#watch-more-button > a {
+.watch-more-button > a {
     text-transform: uppercase; 
+    display: block;
+    width: 100%; 
 }
 
 /*Response.html page styles*/
@@ -813,8 +819,9 @@ input[type="email"] {
     /* margin-left: 50px; */
     font-size: 110%;
     text-transform: uppercase;
-
+    cursor: pointer;   
 }
+
 
 .footer-text {
     display: flex;
@@ -840,11 +847,35 @@ input[type="email"] {
     font-size: 20px
 }
 
+
+/*Buttons styles*/
+
+.red-button > a {
+    display: block; 
+    width: 100%; 
+    
+}
+
+/*Button interactive styles*/
+
+.red-button:hover {
+    background-color: rgb(219, 91, 91);  
+} 
+
+red-button:clicked {
+    border: solid white 2px;  
+}
+
+.subscribe-button > a {
+    displ
+}
+
 /*Media queries for screens larger than 768px*/
 
 @media screen and (min-width: 768px) {
 
     /*header*/
+
     header {
         display: flex;
         justify-content: space-between;
@@ -863,7 +894,6 @@ input[type="email"] {
     #nav-items {
         display: flex;
         justify-content: space-evenly;
-        /* width: 100%;  */
         font-size: 1.2rem;
 
     }
@@ -877,15 +907,8 @@ input[type="email"] {
     }
 
 
-    /*ALBUM SECTION STYLES*/
 
-    #album-buttons {
-        flex-direction: row;
-        width: 80%;
-        max-width: 819.18px;
-        margin: 0 auto;
 
-    }
 
     /*Tour dates info containers home and main page styles*/
 
