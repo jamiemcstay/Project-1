@@ -853,17 +853,35 @@ input[type="email"] {
     text-align: center;
 }
 
+.footer-text > li > a:hover {
+    color: rgb(199, 0, 0); 
+}
+
 .footer-icons {
     color: rgb(199, 0, 0);
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 0 5%;
+    
 }
 
+.footer-icons li > a {
+    color: rgb(199, 0, 0); 
+}
 
 .footer-icons li i {
-    font-size: 20px
+    font-size: 25px; 
+    width: fit-content; 
+}
+
+/* .footer-icons li:hover {
+    background-color: rgb(219, 91, 91); 
+} */
+
+.footer-icons li i:hover {
+    display: block; 
+    color: rgb(235, 119, 119); 
 }
 
 
