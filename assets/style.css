@@ -617,6 +617,11 @@ audio {
     text-align: center;
     color: white;
     margin: 0 auto 0 auto;
+    
+}
+
+#watch-more-button > a {
+    text-transform: uppercase; 
 }
 
 /*Response.html page styles*/
