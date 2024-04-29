@@ -264,7 +264,7 @@ figure {
 }
 
 
-#album-buttons>button {
+#album-buttons > button {
     width: 50%;
     letter-spacing: 3px;
     font-weight: 600;
@@ -276,6 +276,8 @@ figure {
     font-size: 130%;
     text-transform: uppercase;
 }
+
+
 
 
 /*singer image section styles*/
@@ -360,6 +362,19 @@ figure {
     border: 0;
     font-size: 110%;
 }
+
+.tour-button > a  {
+    text-transform: uppercase; 
+    font-weight: 600; 
+    color: black; 
+}
+
+.tours-more-dates > a {
+    text-transform: uppercase; 
+    font-weight: 500; 
+    color: white; 
+}
+
 
 .black-overlay-home-page {
     position: absolute;
