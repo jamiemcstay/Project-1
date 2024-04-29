@@ -358,7 +358,6 @@ figure {
 }
 
 .tour-button {
-    color: black;
     width: 100%;
     font-weight: 600;
     background-color: white;
@@ -371,6 +370,12 @@ figure {
     text-transform: uppercase; 
     font-weight: 600; 
     color: black; 
+    display: block; 
+    width: 100%; 
+}
+
+.tour-button:hover {
+    background-color: rgb(219, 91, 91); 
 }
 
 .tours-more-dates > a {
@@ -394,6 +399,7 @@ figure {
 
 .sold-out {
     background-color: #682424;
+    cursor: not-allowed; 
 }
 
 .tours-more-dates {
@@ -862,9 +868,6 @@ input[type="email"] {
     background-color: rgb(219, 91, 91);  
 } 
 
-red-button:clicked {
-    border: solid white 2px;  
-}
 
 .subscribe-button > a {
     displ
@@ -905,8 +908,6 @@ red-button:clicked {
     .nav-toggle-label {
         display: none;
     }
-
-
 
 
 
