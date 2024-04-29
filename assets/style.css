@@ -44,7 +44,7 @@ h1 {
 h2 {
     font-size: 180%;
     color: white;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: white; 
+    color: white;
 
 }
 
@@ -83,21 +83,21 @@ header {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    margin: 1rem auto 1rem auto; 
+    margin: 1rem auto 1rem auto;
 }
 
 
-#nav-items > li {
+#nav-items>li {
     margin-bottom: 1em;
 }
 
 .nav-links:hover {
-    
-    color:rgb(180, 0, 0);  
+
+    color: rgb(180, 0, 0);
 }
 
 .nav-links:clicked {
-    color: rgb(180, 0, 0); 
+    color: rgb(180, 0, 0);
 }
 
 /*nav bar styles with dropdown toggle*/
@@ -132,7 +132,7 @@ nav {
 }
 
 .fa-solid:clicked {
-    color: red; 
+    color: red;
 }
 
 /*Main styles*/
@@ -166,7 +166,7 @@ main {
 
 #album-section {
     width: 100%;
-    margin: 0 auto 0p auto;
+    margin: 0 auto 0 auto;
     position: relative;
     top: 0;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
@@ -177,7 +177,6 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 10 auto;
     padding-top: 60px;
     position: relative;
 }
@@ -272,16 +271,14 @@ figure {
     align-items: center;
     gap: 10px;
     padding-bottom: 50px;
-    background-color: black;
-}
-
-.album-button > a {
-    width: 100%; 
+    max-width: 780px;
+    
 }
 
 
-.album-buttons > button {
-    width: 50%;
+.album-button {
+
+    width: 50%; 
     letter-spacing: 3px;
     font-weight: 600;
     background-color: rgb(199, 0, 0);
@@ -291,6 +288,8 @@ figure {
     color: white;
     font-size: 130%;
     text-transform: uppercase;
+    font-weight: 500; 
+     
 }
 
 
@@ -378,22 +377,22 @@ figure {
     font-size: 110%;
 }
 
-.tour-button > a  {
-    text-transform: uppercase; 
-    font-weight: 600; 
-    color: black; 
-    display: block; 
-    width: 100%; 
+.tour-button>a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    display: block;
+    width: 100%;
 }
 
 .tour-button:hover {
-    background-color: rgb(219, 91, 91); 
+    background-color: rgb(219, 91, 91);
 }
 
-.tours-more-dates > a {
-    text-transform: uppercase; 
-    font-weight: 500; 
-    color: white; 
+.tours-more-dates>a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
 }
 
 
@@ -411,7 +410,7 @@ figure {
 
 .sold-out {
     background-color: #682424;
-    cursor: not-allowed; 
+    cursor: not-allowed;
 }
 
 .tours-more-dates {
@@ -639,13 +638,13 @@ audio {
     text-align: center;
     color: white;
     margin: 0 auto 0 auto;
-    
+
 }
 
-.watch-more-button > a {
-    text-transform: uppercase; 
+.watch-more-button>a {
+    text-transform: uppercase;
     display: block;
-    width: 100%; 
+    width: 100%;
 }
 
 /*Response.html page styles*/
@@ -668,7 +667,7 @@ audio {
     /* justify-content: center; */
     /* gap: 6%; */
     padding-top: 10%;
-    
+
 }
 
 .response-part-2 {
@@ -707,17 +706,17 @@ audio {
     padding-bottom: 30px;
 }
 
-.response-text-wrapper > p{
+.response-text-wrapper>p {
     font-weight: 200;
     /* letter-spacing: 1px; */
     /* border-bottom: solid white 1px; */
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
 }
 
 .capitalize-bold {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 200%; 
+    font-size: 200%;
 }
 
 .response-buttons-wrapper {
@@ -837,7 +836,7 @@ input[type="email"] {
     /* margin-left: 50px; */
     font-size: 110%;
     text-transform: uppercase;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 
@@ -852,8 +851,8 @@ input[type="email"] {
     text-align: center;
 }
 
-.footer-text > li > a:hover {
-    color: rgb(199, 0, 0); 
+.footer-text>li>a:hover {
+    color: rgb(199, 0, 0);
 }
 
 .footer-icons {
@@ -862,16 +861,16 @@ input[type="email"] {
     justify-content: space-between;
     list-style: none;
     padding: 0 5%;
-    
+
 }
 
-.footer-icons li > a {
-    color: rgb(199, 0, 0); 
+.footer-icons li>a {
+    color: rgb(199, 0, 0);
 }
 
 .footer-icons li i {
-    font-size: 25px; 
-    width: fit-content; 
+    font-size: 25px;
+    width: fit-content;
 }
 
 /* .footer-icons li:hover {
@@ -879,29 +878,25 @@ input[type="email"] {
 } */
 
 .footer-icons li i:hover {
-    display: block; 
-    color: rgb(235, 119, 119); 
+    display: block;
+    color: rgb(235, 119, 119);
 }
 
 
 /*Buttons styles*/
 
-.red-button > a {
-    display: block; 
-    width: 100%; 
-    
+.red-button>a {
+    display: block;
+    width: 100%;
+
 }
 
 /*Button interactive styles*/
 
 .red-button:hover {
-    background-color: rgb(219, 91, 91);  
-} 
-
-
-.subscribe-button > a {
-    displ
+    background-color: rgb(219, 91, 91);
 }
+
 
 /*Media queries for screens larger than 768px*/
 
@@ -928,7 +923,7 @@ input[type="email"] {
         display: flex;
         justify-content: space-evenly;
         font-size: 1.2rem;
-        
+
 
     }
 
@@ -940,7 +935,11 @@ input[type="email"] {
         display: none;
     }
 
-
+    .album-buttons {
+        flex-direction: row; 
+        width: 80%; 
+        margin: 0 auto; 
+    }
 
     /*Tour dates info containers home and main page styles*/
 
@@ -979,14 +978,13 @@ input[type="email"] {
         justify-content: normal;
     }
 
-
     .music-video {
         width: 100%
     }
 
     /*Footer styles*/
 
-    #sign-up-button {
+    #subscribe-button {
         margin-left: 50px;
         flex-shrink: inherit;
     }
