@@ -93,8 +93,7 @@ header {
 
 .nav-links:hover {
     
-    color:rgb(180, 0, 0); 
-    border-bottom: rgb(180, 0, 0) solid 2px; 
+    color:rgb(180, 0, 0);  
 }
 
 .nav-links:clicked {
