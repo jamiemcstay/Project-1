@@ -45,6 +45,8 @@ h2 {
     font-size: 180%;
     color: white;
     text-transform: uppercase;
+    font-weight: 350; 
+    padding: 60px 0 60px 0; 
 }
 
 h3 {

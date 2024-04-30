@@ -178,19 +178,25 @@ To allow for the site to meet the requirments in terms of accessibity and having
 ![Image of lead singer on homepage](assets/images/lead-singer.png)
 
 
-#### Tours Home Page
+#### Tours section on Home Page
 
 >I had seen a lot of other websites that had a few tour dates on the homepage that would then link to a page or external site where an entire touring schedule could be reviewed by the visitor, so I included that as the second section on the homepage. The tour dates information was in a column in mobile and using flex those columns were changed to rows to fill the surplus space. 
 
 ##### Desktop
 
+
+
 ##### Mobile
+
+
 
 #### Footer 
 
 >The main purpose of the footer in this website was to provide links to social media and a form for the visitor to subscribe to a newsletter. Also, I included some links that are standard in terms of a copyright tag,  a link to the designers webpage, and a link to the  cookie policy.
 
 ##### Desktop
+
+
 
 ##### Mobile
 
