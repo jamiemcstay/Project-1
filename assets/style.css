@@ -21,7 +21,7 @@ body {
 
 }
 
-/*classes for text and buttons*/
+/*Colour classses for text and buttons*/
 
 .red {
     color: rgb(180, 0, 0);
@@ -31,7 +31,7 @@ body {
     color: white;
 }
 
-/*headings default styles*/
+/*Headings default styles*/
 
 h1 {
     padding: 0.8rem;
@@ -47,7 +47,8 @@ h2 {
     text-transform: uppercase;
     font-weight: 350;
     padding: 30px 0 20px 0;
-    text-align: center
+    text-align: center;
+    margin: 0 auto;
 }
 
 h3 {
@@ -64,7 +65,7 @@ a {
 
 }
 
-/*header styles*/
+/*Header styles*/
 
 header {
     background-color: black;
@@ -381,30 +382,16 @@ figure {
     align-items: center;
     margin-bottom: 0;
     font-size: 130%;
-    background: url("images/lead-singer.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url("images/lead-singer.png") no repeat fixed center center/cover;
 }
 
 
-.tour-page-heading {
-    width: 60%;
-    font-weight: 350;
+.tour-page-h2 {
     margin: 0 auto;
-    text-transform: uppercase;
     max-width: 819.188px;
     margin-bottom: 30px;
-    width: 100%;
     z-index: 3;
     width: 80%;
-    text-align: center;
-    font-size: 180%;
-    color: white;
-    max-width: 819.188px;
-    padding-top: 50px;
-
 }
 
 .black-overlay-tours-page {
