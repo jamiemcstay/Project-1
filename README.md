@@ -217,7 +217,7 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ### music.html
 
->The music page was to feature a section for listening and for watchin videos of the band. Given that Blood Red are a fictional band, I obviously didn't have original audio and video files, or actual an actual spotify/youtube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
+>The music page was to feature a section for listening and for watching videos of the band. Given that Blood Red are a fictional band, I obviously didn't have original audio and video files, or actual an actual spotify/youtube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
 
 #### Listen Section
 
@@ -237,9 +237,9 @@ I think it would have suited the aethetic of the website if there was some red, 
 
 #### Watch Section 
 
-The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band. 
+The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band.
 
-Similar to the listen section the container for the watch section is set to wrap, so there are rows of two videos on desktops, and videos in a single column on mobile devices. 
+Similar to the listen section there is a flex container for the watch section set to wrap, so there are rows of two videos on desktops, and videos in a single column on mobile devices. 
 
 ##### Desktop 
 
@@ -251,7 +251,19 @@ Similar to the listen section the container for the watch section is set to wrap
 
 ### response.html 
 
-For the purpose of having some recognization of the form in the footer being 
+For the purpose of having some recognization of the form in the footer being submitted. Once the user clicks on submit they are redirected to response.html, which recognises their submission, and offers them a free download of a new single.
+
+I did this by using an anchor element as opposed to an input="submit" button. By doing so, once the user enters their information and 'submit' is clicked, the user is redirected to the response.html page. 
+
+Also, I added some buttons that the user can click to download the single, go to the homepage, or the listen page. 
+
+##### Desktop
+
+![Response page on desktop](assets/images/features/response-desktop.png)
+
+#### Mobile
+
+![Response page on desktop](assets/images/features/response-mobile.png)
 
 
 
