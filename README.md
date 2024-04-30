@@ -167,7 +167,7 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ![Album section on desktop](assets/images/features/album-section-desktop.png)
 
-##### Modile
+##### Mobile
 
 ![Album section on mobile](assets/images/features/album-section-mobile.png)
 
@@ -184,11 +184,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-
+![Image of tour dates on the home page of the website as it appears on desktops](assets/images/features/tour-dates-home-desktop.png)
 
 ##### Mobile
 
-
+![Image of tour dates section on the home page of the website](assets/images/features/tour-dates-home-mobile.png)
 
 #### Footer 
 
@@ -196,9 +196,12 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-
+![Image of footer as it appears on desktops](assets/images/features/footer-desktop.png)
 
 ##### Mobile
+
+![Image of footer as it appears on mobile](assets/images/features/footer-mobile.png)
+
 
 ### tours.html
 
@@ -206,7 +209,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
+![Image of tours page on desktops](assets/images/features/tours-page-desktop.png)
+
 ##### Mobile
+
+![Image of tours page on mobile](assets/images/features/tours-page-mobile.png)
 
 ### music.html
 
@@ -214,25 +221,37 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Listen Section
 
-The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a max-width on the container for this listen section, and then had it set to wrap so it would appear as a column on smaller screens. 
+The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a flex container for this listen section to wrap so it would appear as a column on smaller screens. 
 
-I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. I think it would have suited the aethetic of the website if there was some red, white and black in these audio elements, and would be noted if building a similar site again. 
+I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. 
+
+I think it would have suited the aethetic of the website if there was some red, white and black in these audio elements, and would be noted if building a similar site again. 
 
 ##### Desktop
 
+![Image of listen section on desktop](assets/images/features/listen-section-desktop.png)
+
 ##### Mobile
+
+![Image of listen section on mobile](assets/images/features/listen-section-mobile.png)
 
 #### Watch Section 
 
-The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band. Similar to the listen section the container for the watch section is set to wrap, so there are rows of two videos on desktops on in a column on mobile devices. 
+The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band. 
+
+Similar to the listen section the container for the watch section is set to wrap, so there are rows of two videos on desktops, and videos in a single column on mobile devices. 
 
 ##### Desktop 
 
+![Watch section on desktops](assets/images/features/watch-section-desktop.png)
+
 ##### Mobile
 
+![Watch section on mobile](assets/images/features/watch-section-mobile.png)
 
+### response.html 
 
-
+For the purpose of having some recognization of the form in the footer being 
 
 
 
