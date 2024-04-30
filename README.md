@@ -35,7 +35,7 @@ https://uppbeat.io/
 >I decided to make a website on a fictional rock band and did some research into some popular bands and how their websites looked.
 
 
-![Screenshot of websites referenced in planning stage of website](/assets/images/research/website-research.png  website-research.png)
+![Screenshot of websites referenced in planning stage of website](docs/research/website-research.png)
 
 After researching I began a UX design plan that was in line with what I had seen across numerous of the websites that I had reviewed.
 
@@ -95,7 +95,7 @@ Across all pages as is consistent on websites, there will be a consistent header
 
 I used figma to build a wireframes of the different pages on the site. I decided to design the website mobile first.  
 
-![Screenshot of the homepage wireframe in figma](assets/images/wireframes/wireframes.jpg)
+![Screenshot of the homepage wireframe in figma](docs/wireframes/wireframes.jpg)
 
 ### Homepage
 
@@ -130,15 +130,15 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Homepage
 
-![Image of surface plane design of homepage](assets/images/wireframes/home-surface-plane.png) 
+![Image of surface plane design of homepage](docs/wireframes/home-surface-plane.png) 
 
 #### Tours page
 
-![Image of surface plane design of tours page](assets/images/wireframes/tour-surface-plane.png)
+![Image of surface plane design of tours page](docs/wireframes/tour-surface-plane.png)
 
 #### Music page
 
-![Image of surface plane design of music page](assets/images/wireframes/music-surface-plane.png)
+![Image of surface plane design of music page](docs/wireframes/music-surface-plane.png)
 
 
 <a name="features"></a>
@@ -153,11 +153,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop 
 
-![Image of nav bar on desktops](assets/images/features/nav-bar-desktop.png)
+![Image of nav bar on desktops](docs/features/nav-bar-desktop.png)
 
 ##### Mobile
 
-![Image of nav bar on mobile](assets/images/features/nav-bar-mobile.png)
+![Image of nav bar on mobile](docs/features/nav-bar-mobile.png)
 
 #### Album release section
 
@@ -165,17 +165,17 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-![Album section on desktop](assets/images/features/album-section-desktop.png)
+![Album section on desktop](docs/features/album-section-desktop.png)
 
 ##### Mobile
 
-![Album section on mobile](assets/images/features/album-section-mobile.png)
+![Album section on mobile](docs/features/album-section-mobile.png)
 
 #### Singer Image
 
 >I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites there had been imagery of the band on the site. So, I found an image on unsplash that I used. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
 
-![Image of lead singer on homepage](assets/images/lead-singer.png)
+![Image of lead singer on homepage](docs/lead-singer.png)
 
 
 #### Tours section on Home Page
@@ -184,11 +184,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-![Image of tour dates on the home page of the website as it appears on desktops](assets/images/features/tour-dates-home-desktop.png)
+![Image of tour dates on the home page of the website as it appears on desktops](docs/features/tour-dates-home-desktop.png)
 
 ##### Mobile
 
-![Image of tour dates section on the home page of the website](assets/images/features/tour-dates-home-mobile.png)
+![Image of tour dates section on the home page of the website](docs/features/tour-dates-home-mobile.png)
 
 #### Footer 
 
@@ -196,11 +196,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-![Image of footer as it appears on desktops](assets/images/features/footer-desktop.png)
+![Image of footer as it appears on desktops](docs/features/footer-desktop.png)
 
 ##### Mobile
 
-![Image of footer as it appears on mobile](assets/images/features/footer-mobile.png)
+![Image of footer as it appears on mobile](docs/features/footer-mobile.png)
 
 
 ### tours.html
@@ -209,11 +209,11 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ##### Desktop
 
-![Image of tours page on desktops](assets/images/features/tours-page-desktop.png)
+![Image of tours page on desktops](docs/features/tours-page-desktop.png)
 
 ##### Mobile
 
-![Image of tours page on mobile](assets/images/features/tours-page-mobile.png)
+![Image of tours page on mobile](docs/features/tours-page-mobile.png)
 
 ### music.html
 
@@ -229,11 +229,11 @@ I think it would have suited the aethetic of the website if there was some red, 
 
 ##### Desktop
 
-![Image of listen section on desktop](assets/images/features/listen-section-desktop.png)
+![Image of listen section on desktop](docs/features/listen-section-desktop.png)
 
 ##### Mobile
 
-![Image of listen section on mobile](assets/images/features/listen-section-mobile.png)
+![Image of listen section on mobile](docs/features/listen-section-mobile.png)
 
 #### Watch Section 
 
@@ -243,11 +243,11 @@ Similar to the listen section there is a flex container for the watch section se
 
 ##### Desktop 
 
-![Watch section on desktops](assets/images/features/watch-section-desktop.png)
+![Watch section on desktops](docs/features/watch-section-desktop.png)
 
 ##### Mobile
 
-![Watch section on mobile](assets/images/features/watch-section-mobile.png)
+![Watch section on mobile](docs/features/watch-section-mobile.png)
 
 ### response.html 
 
@@ -259,11 +259,11 @@ Also, I added some buttons that the user can click to download the single, go to
 
 ##### Desktop
 
-![Response page on desktop](assets/images/features/response-desktop.png)
+![Response page on desktop](docs/features/response-desktop.png)
 
 #### Mobile
 
-![Response page on desktop](assets/images/features/response-mobile.png)
+![Response page on desktop](docs/features/response-mobile.png)
 
 
 
