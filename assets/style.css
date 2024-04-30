@@ -98,10 +98,6 @@ header {
     color: rgb(180, 0, 0);
 }
 
-.nav-links:clicked {
-    color: rgb(180, 0, 0);
-}
-
 /*nav bar styles with dropdown toggle*/
 
 nav {
@@ -133,9 +129,6 @@ nav {
     color: white;
 }
 
-.fa-solid:clicked {
-    color: red;
-}
 
 /*Main styles*/
 
@@ -194,7 +187,8 @@ main {
     margin: 0 auto;
     text-transform: uppercase;
     padding-bottom: 20px;
-    max-width: 819.188px;
+    padding-top: 30px; 
+    /* max-width: 819.188px; */
 }
 
 
