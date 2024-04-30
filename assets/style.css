@@ -165,15 +165,14 @@ main {
 }
 
 
-#album-section-wrapper {
+/* #album-section-wrapper {
     display: flex;
     flex-direction: column;
 }
-
+ */
 
 .album-section-h2 {
     width: 80%;
-    font-weight: 350;
     margin: 0 auto;
     padding-bottom: 20px;
     padding-top: 30px; 
@@ -188,8 +187,8 @@ main {
     justify-content: space-around;
     gap: 7%;
     background-color: black;
-    padding: 30px 2%;
-    max-width: 778.250px;
+    padding: 30px 2% 0 2%;
+    max-width: 819px; 
     border-bottom: solid 2px white;
     border-top: solid 2px white;
     margin-bottom: 30px;
