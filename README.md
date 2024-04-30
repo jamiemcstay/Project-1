@@ -92,14 +92,54 @@ Across all pages as is consistent on websites, there will be a consistent header
 
 ## Skeleton
 
-I used figma to build a wireframes of the different pages on the site. 
+I used figma to build a wireframes of the different pages on the site. I decided to design the website mobile first.  
 
 ![Screenshot of the homepage wireframe in figma](assets/images/wireframes/wireframes.jpg)
 
 ### Homepage
 
-- Should contain
+- Will feature an initial section thats promotes the most recent update about the band such as an album release or upcoming tour.
+- Will feature some imagery of the band.
+- Will feature a couple of tour dates with a link to the tours page where more dates can be seen. 
 
+### Tours page
+- Will feature a list of upcoming tour dates locations, dates and options to purchase tickets.
+
+### Music page
+
+- Will feature some of the bands music that the visitors can listen to.
+- Will feature some videos of the band that the visitor can watch. 
+
+## Surface
+
+### Typography 
+
+When designing the surface plane in figma, I had used
+- Krona 1 font
+- Inter
+
+However, when making the real website I preferred the look of inter as a font on its own, so I used that soley.
+
+### Color
+
+To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand out from each: 
+- Black 
+- Red (or eventually rgb(180, 0, 0))
+- White. 
+
+#### Homepage
+
+![Image of surface plane design of homepage](assets/images/wireframes/home-surface-plane.png) 
+
+#### Tours page
+
+![Image of surface plane design of tours page](assets/images/wireframes/tour-surface-plane.png)
+
+#### Music page
+
+![Image of surface plane design of music page](assets/images/wireframes/music-surface-plane.png)
+
+<a name="features"></a>
 
 
 
