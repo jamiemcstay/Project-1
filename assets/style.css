@@ -382,7 +382,7 @@ figure {
     align-items: center;
     margin-bottom: 0;
     font-size: 130%;
-    background: url("images/lead-singer.png") no repeat fixed center center/cover;
+    background: url("images/lead-singer.png") no-repeat fixed center center/cover;
 }
 
 
@@ -404,40 +404,25 @@ figure {
 
 }
 
-/*STYLES FOR MUSIC PAGE*/
+/*Music page styles*/
 
-.music-page-headings {
-    text-align: center;
-    z-index: 2;
-    position: relative;
-    font-weight: 400;
+.music-page-h2 {
     margin: 0 auto;
     text-transform: uppercase;
-    margin-bottom: 60px;
-    color: white;
+    margin-bottom: 40px;
     letter-spacing: 15px;
-    font-size: 200%;
+    
 }
 
-
-.album-title {
-    font-size: 130%;
-}
-
-
-#listen {
+.listen {
     padding-top: 50px;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
-
-
-#listen-wrapper {
-    width: 100%;
+.listen-wrapper {
     height: auto;
     max-width: 780px;
-    position: relative;
-    z-index: 2;
+    padding-bottom: 30px;
 }
 
 .listen-container {
@@ -445,29 +430,22 @@ figure {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     max-width: 288px;
 }
 
-#listen-wrapper .listen-container:nth-child(1) {
-    margin-bottom: 50px;
-}
 
-#listen-wrapper .listen-container:nth-child(2) {
-    padding-bottom: 50px;
+.album-title {
+    font-size: 130%;
 }
 
 .album-cover-and-text-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
     margin: 0 auto 20px auto;
     gap: 15px;
 
 }
-
 
 .album-cover {
     width: 45%;
@@ -523,12 +501,12 @@ audio {
 
 /*Watch section styles*/
 
-#watch {
+.watch {
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
-#watch-wrapper {
+.watch-wrapper {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -536,6 +514,7 @@ audio {
     margin: 0 auto 0 auto;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 30px; 
 }
 
 .music-video {
@@ -562,9 +541,9 @@ audio {
 }
 
 .watch-more-button {
-    width: 50%;
+    width: 80%;
     letter-spacing: 3px;
-    font-weight: 800;
+    font-weight: 500;
     background-color: rgb(199, 0, 0);
     padding: 10px 10px;
     border: 0;
@@ -576,14 +555,13 @@ audio {
 
 }
 
-.watch-more-button>a {
+.watch-more-button > a {
     text-transform: uppercase;
     display: block;
     width: 100%;
 }
 
 /*Response.html page styles*/
-
 
 .response-section {
     /* background: black url(images/black-background.jpg) no-repeat fixed center center / cover; */
@@ -860,7 +838,6 @@ input[type="email"] {
         justify-content: space-evenly;
         font-size: 1.2rem;
 
-
     }
 
     #nav-items li {
@@ -899,7 +876,7 @@ input[type="email"] {
 
     /*Music page styles*/
 
-    #listen-wrapper {
+    .listen-wrapper {
         width: 80%;
         display: flex;
         margin: 0 auto;
@@ -952,7 +929,6 @@ input[type="email"] {
     }
 
     .listen-wrapper {
-        width: 60%;
         justify-content: space-between;
         max-width: 864px;
     }
