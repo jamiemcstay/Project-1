@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=vGHrJDmepI0
 https://www.w3schools.com/howto/howto_js_alert.asp
 https://www.shecodes.io/athena/39031-how-to-create-an-alert-after-clicking-a-button-using-javascript#:~:text=In%20this%20example%2C%20we%20add,message%20%22Button%20clicked!%22.
 https://www.w3schools.com/cssref/sel_hover.php
+https://uppbeat.io/
 
 #   Blood Red
 ## Website for fictional rock band
@@ -21,12 +22,12 @@ https://www.w3schools.com/cssref/sel_hover.php
 1. [ Project planning](#planning)
 2. [ Features](#features)
 3. [ Technology](#technology)
-4. [Testing](#testing)
-5. [Errors](#errors)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Content](#content)
-9.[Acknowledgments](#acknowledgements)
+4. [ Testing ](#testing)
+5. [ Errors ](#errors)
+6. [ Deployment ](#deployment)
+7. [ Credits ](#credits)
+8. [ Content ](#content)
+9. [ Acknowledgments ](#acknowledgements)
 
 <a name="planning"></a>
 ## Project Planning
@@ -39,15 +40,15 @@ https://www.w3schools.com/cssref/sel_hover.php
 After researching I began a UX design plan that was in line with what I had seen across numerous of the websites that I had reviewed.
 
 
-## Strategy
+## UX Strategy
 
 ### Website visitors
 
-> Are existing fans of the band.
-> Are visiting the website to learn more about the band and are potential fans.
-> Want to be able to hear about tour schedule.
-> Want to be to have access to the bands music.
-> Want updates on anything new that happens with the band.
+- Are existing fans of the band.
+- Are visiting the website to learn more about the band and are potential fans.
+-  Want to be able to hear about tour schedule.
+- Want to be to have access to the bands music.
+- Want updates on anything new that happens with the band.
 
 ### Musicians/Bands
 
@@ -139,7 +140,95 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ![Image of surface plane design of music page](assets/images/wireframes/music-surface-plane.png)
 
+
 <a name="features"></a>
+
+## Features
+
+### index.html 
+
+#### Navigation menu
+
+>The navigation bar was developed mobile first following the tutorial in the Love running project to create a hamburger menu on smaller screens. Flex was used to space out the navigation menu items on larger screens. 
+
+##### Desktop 
+
+![Image of nav bar on desktops](assets/images/features/nav-bar-desktop.png)
+
+##### Mobile
+
+![Image of nav bar on mobile](assets/images/features/nav-bar-mobile.png)
+
+#### Album release section
+
+>The album release release section was to show some cover art of the new album release of the band, some reviews from popular editorials, and some links where visitors can stream or buy the record. The design moved on from my initial design as seen in my figma designs. I uses microsoft image generator and open art AI to bring together an album cover that suited the design of the website. 
+
+##### Desktop
+
+![Album section on desktop](assets/images/features/album-section-desktop.png)
+
+##### Modile
+
+![Album section on mobile](assets/images/features/album-section-mobile.png)
+
+#### Singer Image
+
+>I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites there had been imagery of the band on the site. So, I found an image on unsplash that I used. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
+
+![Image of lead singer on homepage](assets/images/lead-singer.png)
+
+
+#### Tours Home Page
+
+>I had seen a lot of other websites that had a few tour dates on the homepage that would then link to a page or external site where an entire touring schedule could be reviewed by the visitor, so I included that as the second section on the homepage. The tour dates information was in a column in mobile and using flex those columns were changed to rows to fill the surplus space. 
+
+##### Desktop
+
+##### Mobile
+
+#### Footer 
+
+>The main purpose of the footer in this website was to provide links to social media and a form for the visitor to subscribe to a newsletter. Also, I included some links that are standard in terms of a copyright tag,  a link to the designers webpage, and a link to the  cookie policy.
+
+##### Desktop
+
+##### Mobile
+
+### tours.html
+
+>The tours page was to inlcude more dates than are featured on the homepage. In order to vary the aesthetic of the site and offer some variation between the pages I used the image from the homepage and fixed it to the background.
+
+##### Desktop
+
+##### Mobile
+
+### music.html
+
+>The music page was to feature a section for listening and for watchin videos of the band. Given that Blood Red are a fictional band, I obviously didn't have original audio and video files, or actual an actual spotify/youtube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
+
+#### Listen Section
+
+The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a max-width on the container for this listen section, and then had it set to wrap so it would appear as a column on smaller screens. 
+
+I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. I think it would have suited the aethetic of the website if there was some red, white and black in these audio elements, and would be noted if building a similar site again. 
+
+##### Desktop
+
+##### Mobile
+
+#### Watch Section 
+
+The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band. Similar to the listen section the container for the watch section is set to wrap, so there are rows of two videos on desktops on in a column on mobile devices. 
+
+##### Desktop 
+
+##### Mobile
+
+
+
+
+
+
 
 
 
