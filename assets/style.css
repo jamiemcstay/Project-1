@@ -300,24 +300,15 @@ figure {
 }
 
 
-/*styles for tours section on homepage*/
+/*Tour dates section on homepage*/
 
 .tour-dates-home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
     margin-bottom: 0;
     font-size: 130%;
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
-}
-
-
-#tour-dates-home h2 {
-    margin: 30px 0 30px 0;
-    font-weight: 400;
-    text-transform: uppercase;
-    z-index: 2;
 }
 
 
@@ -345,38 +336,12 @@ figure {
     border: 0;
     font-size: 110%;
     color: black;
-}
-
-.tour-button>a {
-    text-transform: uppercase;
-    font-weight: 600;
-    color: black;
-    display: block;
-    width: 100%;
+    text-transform: uppercase; 
 }
 
 .tour-button:hover {
     background-color: rgb(219, 91, 91);
 }
-
-.tours-more-dates {
-    text-transform: uppercase;
-    font-weight: 500;
-    color: white;
-}
-
-
-.black-overlay-home-page {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.86;
-    z-index: 1;
-    top: 0;
-}
-
-
 
 .sold-out {
     background-color: #682424;
@@ -396,7 +361,19 @@ figure {
     z-index: 3;
 }
 
-/*Tour dates page styles*/
+
+.black-overlay-home-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.86;
+    z-index: 1;
+    top: 0;
+}
+
+
+/*Tour page styles*/
 
 #tour-dates-main {
     display: flex;
@@ -856,9 +833,10 @@ input[type="email"] {
 
 /*Buttons styles*/
 
-.red-button>a {
+.red-button > a {
     display: block;
     width: 100%;
+    padding: 10px 10px; 
 
 }
 
