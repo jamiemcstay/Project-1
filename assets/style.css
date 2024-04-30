@@ -158,18 +158,12 @@ main {
     width: 100%;
 }
 
-/*Album release section styles*/
+/*Album section styles*/
 
 #album-section {
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
-
-/* #album-section-wrapper {
-    display: flex;
-    flex-direction: column;
-}
- */
 
 .album-section-h2 {
     width: 80%;
@@ -178,6 +172,8 @@ main {
     padding-top: 30px; 
 
 }
+
+/*Reviews div with flex for larger screens*/
 
 .reviews {
     width: 80%;
@@ -194,8 +190,7 @@ main {
     margin-bottom: 30px;
 }
 
-.reviews>figure {
-    padding-bottom: 5px;
+.reviews > figure {
     margin-bottom: 30px;
 }
 
@@ -204,6 +199,7 @@ main {
     font-size: 110%;
     color: rgb(199, 0, 0);
     font-style: italic;
+    font-weight: bold; 
 }
 
 blockquote {
@@ -211,7 +207,7 @@ blockquote {
 }
 
 
-blockquote>p {
+blockquote >p {
     display: flex;
     justify-content: space-around;
     gap: 5px;
@@ -919,11 +915,6 @@ input[type="email"] {
         display: none;
     }
 
-    .album-buttons {
-        flex-direction: row; 
-        width: 80%; 
-        margin: 0 auto; 
-    }
 
     /*Tour dates info containers home and main page styles*/
 
