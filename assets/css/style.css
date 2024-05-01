@@ -18,6 +18,8 @@ body {
     /*add flex to move footer to end of page (main set to flex: 1)  */
     display: flex;
     flex-direction: column;
+    background: black url("../images/black-background.jpg") no-repeat fixed center center/cover;
+    
 
 }
 
@@ -146,7 +148,6 @@ main {
 /*Album section styles*/
 
 #album-section {
-    background: black url("../images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
@@ -161,7 +162,8 @@ main {
 
 .album-image {
     margin-bottom: 20px;
-    width: 80%;
+    width: 256px;
+    height: auto; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,6 +263,8 @@ figure {
     height: auto; 
     overflow: hidden;
     top: 0;
+    width: 100%; 
+    height: auto; 
 }
 
 .singer-image-wrapper img {
@@ -289,7 +293,7 @@ figure {
     align-items: center;
     margin-bottom: 0;
     font-size: 130%;
-    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
+
 }
 
 
@@ -363,7 +367,7 @@ figure {
     align-items: center;
     margin-bottom: 0;
     font-size: 130%;
-    background: url("images/lead-singer.png") no-repeat fixed center center/cover;
+    background: black url("../images/lead-singer.png") no-repeat fixed center center/cover;
 }
 
 
@@ -398,7 +402,6 @@ figure {
 
 .listen {
     padding-top: 50px;
-    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 .listen-wrapper {
@@ -484,11 +487,6 @@ audio {
 
 /*Watch section styles*/
 
-.watch {
-    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
-}
-
-
 .watch-wrapper {
     width: 80%;
     display: flex;
@@ -556,7 +554,7 @@ audio {
 }
 
 .response-wrapper {
-    background: black url(images/lead-singer.png) no-repeat fixed center center / cover;
+    background: black url(../images/lead-singer.png) no-repeat fixed center center / cover;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -787,6 +785,10 @@ input[type="email"] {
 
     /*Album section buttons*/
 
+    .album-image {
+        width: 500px;
+    }
+
     .album-buttons {
         flex-direction: row;
         max-width: 819px; 
@@ -854,6 +856,10 @@ input[type="email"] {
 /*Media queries for scresns 1024px minimum*/
 
 @media screen and (min-width: 1024px) {
+
+    .album-image {
+        width: 700px;
+    }
 
     /*Subscription form*/
 
