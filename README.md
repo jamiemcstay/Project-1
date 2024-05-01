@@ -168,7 +168,7 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 I found an image on unsplash that I used for this purpose. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
 
-![Image of lead singer on homepage](docs/lead-singer.png)
+![Image of lead singer on homepage](docs/features/lead-singer.png)
 
 
 #### Tours section on Home Page
