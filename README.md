@@ -364,9 +364,29 @@ They reported that it was intuitive, all the links worked, and the form responde
 
 ### Google Lighthouse
 
+When testing the score for the website through Google Lighthouse. I encountered an issue with my site being slow on the performance metric.
+
+To fix thi: 
+
+- I tidied up my CSS file and deleted any unused images from the images folder. 
+
+- Removed the src element from all but but the first three audio tracks/elements on the listen page, so please not that only they are playable.
+
+- Re-exported all my image files from figma, which resulted in a degredation of quality, but will massively improve the experience for the user.
+
+>These fixes resulted in a score of 27%-31% on all pages to to between 80%-95% across all pages. 
+
+#### index.html
 
 
 
+
+
+### Bugs 
+
+remove iframes
+
+Move main down below and push footer down with flex
 
 
 

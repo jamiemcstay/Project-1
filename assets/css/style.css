@@ -512,6 +512,12 @@ audio {
     height: 100%;
 }
 
+/*Remove frameborder from iframe*/
+
+iframe {
+    border: none;
+}
+
 .album-section {
     margin-bottom: 300px;
 }
