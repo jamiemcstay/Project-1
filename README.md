@@ -380,8 +380,6 @@ To fix thi:
 
 
 
-
-
 ## Bugs 
 
 - Applied border: none to an iframe rule to remove frameborders from iframes. 
@@ -436,6 +434,8 @@ https://create.microsoft.com/en-us/features/ai-image-generator
 
 >Echoes of the fallen single cover art by Jon Tyson from unsplash: https://unsplash.com/photos/black-white-and-red-abstract-painting-WB9TRkyrlzk
 
+>Black background image is an AI edited version of this image: https://unsplash.com/photos/grayscale-photography-of-rock-formation-_8hGFBxWD0A
+
 >Youtube video 1: Tears Don't Fall by Bullet for my valentine: https://www.youtube.com/watch?v=9sTQ0QdkN3Q
 
 >Youtube video 2: How you Remind Me by Nickelback: https://www.youtube.com/watch?v=Aiay8I5IPB8
@@ -444,8 +444,35 @@ https://create.microsoft.com/en-us/features/ai-image-generator
 
 >Youtube video 4: Wherever you will go by The Calling: https://www.youtube.com/watch?v=iAP9AF6DCu4
 
+>Favicon from FLATICON: https://www.flaticon.com/free-icon/blood-drop_893529?term=blood+drop&page=1&
+
 
 ### Audio was sourced through uppbeat
+
+>Audio Track is Pursuit by Abbeynoise from Uppbeat.io: https://uppbeat.io/track/abbynoise/pursuit
+
+>Audio Track 2 is Night Thunder by Abbeynoise from Uppeat.io: https://uppbeat.io/track/abbynoise/night-thunder
+
+>Audio Track 3 is Into The Red by Trinity from Uppbeat.io: https://uppbeat.io/track/trinity/into-the-red
+
+### Resources
+
+>Nav toggle code for smaller size screens credited to Love Running Tutorial from Code Institute.
+
+>Other resources used during the building of this site as reference include:
+- MDN Docs
+- Code Institute Content
+- W3 Schools
+
+
+## Acknowledgements
+
+- Thanks to the Code Institue tutors and staff for support throughout the project.
+
+- Thanks to my mentors Alan Bushell and Julia Konovalova for their advice through developing this project. 
+
+
+
 
 
 
