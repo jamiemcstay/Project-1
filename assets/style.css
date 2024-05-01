@@ -247,24 +247,22 @@ figure {
 .album-buttons {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    gap: 30px;
     padding-bottom: 50px;
-    max-width: 780px;
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 80%; 
 
 }
 
 
 .album-button {
 
-    width: 50%;
     letter-spacing: 3px;
     font-weight: 600;
     background-color: rgb(199, 0, 0);
     padding: 10px 10px;
-    border: 0;
     text-align: center;
-    color: white;
     font-size: 130%;
     text-transform: uppercase;
     font-weight: 500;
@@ -802,6 +800,16 @@ input[type="email"] {
         display: none;
     }
 
+    /*Album section buttons*/
+
+    .album-buttons {
+        flex-direction: row;
+        max-width: 819px; 
+    }
+
+    .album-button {
+        width: 50%; 
+    }
 
     /*Tour dates info containers on home page and tours page*/
 
@@ -841,7 +849,7 @@ input[type="email"] {
         width: 100%
     }
 
-    /*Footer styles*/
+    /*Footer elements*/
 
     .footer-text {
         width: 100%;
@@ -857,6 +865,8 @@ input[type="email"] {
         padding-top: 10%; 
     }
 }
+
+/*Media queries for scresns 1024px minimum*/
 
 @media screen and (min-width: 1024px) {
 
@@ -877,27 +887,16 @@ input[type="email"] {
         align-self: baseline;
     }
 
-    /*Listen wrapper*/
-
-    .listen-wrapper {
-        justify-content: space-between;
-        max-width: 864px;
-    }
 }
 
 @media screen and (min-width: 1200px) {
 
+    /*Nav*/ 
     nav {
-        margin-right: 50px; 
+        margin-right: 30px; 
     }
 
-
-    #nav-items {
-        /*add more space between items in nav bar*/
-        display: flex;
-        justify-content: space-between;
-    }
-
+    /*Footer text*/ 
     .footer-text {
         gap: 30%;
     }
