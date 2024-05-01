@@ -38,7 +38,7 @@ https://web.dev/articles/apply-instant-loading-with-prpl
 >I decided to make a website on a fictional rock band and did some research into some popular bands and how their websites looked.
 
 
-![Screenshot of websites referenced in planning stage of website](docs/research/website-research.png)
+![Screenshot of websites referenced in planning stage of website](docs/research/website-research.jpg)
 
 After researching I began a UX design plan that was in line with what I had seen across numerous of the websites that I had reviewed.
 
@@ -48,14 +48,14 @@ After researching I began a UX design plan that was in line with what I had seen
 ### Website visitors
 
 - Are existing fans of the band.
-- Are visiting the website to learn more about the band and are potential fans.
--  Want to be able to hear about tour schedule.
+- Are visiting the website to learn more about the band or they are potential fans.
+- Want to be able to hear about the bands touring schedule.
 - Want to be to have access to the bands music.
 - Want updates on anything new that happens with the band.
 
 ### Musicians/Bands
 
--  Want to promote promote their music.
+-  Want to promote their music.
 -  Want to promote their touring schedules.
 -  Want to increase their fanbase and listener base.
 -  Want to keep vistors/fans updated in anything happening with the band. 
@@ -67,7 +67,7 @@ After researching I began a UX design plan that was in line with what I had seen
 - There should be some imagery of the band on the website.
 - There should be information on the website about touring schedule.
 - Visitors should be able to listen to the bands music.
-- There should be a way that fans can opt in to more integrate themselves within the bands community.
+- There should be a way that existing fans can opt-in to more integrate themselves within the bands community, and where new fans can sign up to learn more about the band. 
 
 ## Structure
 
@@ -82,7 +82,7 @@ Across all pages as is consistent on websites, there will be a consistent header
 ### Homepage
 
 - Should serve as a summary of where the band are at currently and the most recents developments as a band.
-- Should contain a welcome section/hero section that highlights the most recent development the band would like to promote in the context of a new album release or a tour. 
+- Should contain a welcome section/hero section that highlights the most recent development the band would like to promote in the context of a new album release, or a tour. 
 - Should contain some imagery of the band. 
 
 ### Tours
@@ -107,7 +107,7 @@ I used figma to build a wireframes of the different pages on the site. I decided
 - Will feature a couple of tour dates with a link to the tours page where more dates can be seen. 
 
 ### Tours page
-- Will feature a list of upcoming tour dates locations, dates and options to purchase tickets.
+- Will feature a list of upcoming tour dates locations, dates and ability to purchase tickets.
 
 ### Music page
 
@@ -118,7 +118,7 @@ I used figma to build a wireframes of the different pages on the site. I decided
 
 ### Typography 
 
-When designing the surface plane in figma, I had used
+When designing the surface plane in figma, I had used: 
 - Krona 1 font
 - Inter
 
@@ -126,9 +126,9 @@ However, when making the real website I preferred the look of inter as a font on
 
 ### Color
 
-To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand out from each: 
+To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand contrast eachother: 
 - Black 
-- Red (or eventually rgb(180, 0, 0))
+- Red (or eventually rgb(199, 0, 0))
 - White. 
 
 #### Homepage
@@ -164,7 +164,7 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Album release section
 
->The album release release section was to show some cover art of the new album release of the band, some reviews from popular editorials, and some links where visitors can stream or buy the record. The design moved on from my initial design as seen in my figma designs. I uses microsoft image generator and open art AI to bring together an album cover that suited the design of the website. 
+>The album release release section was to show some cover art of the new album release of the band, some reviews from popular editorials, and some links where visitors can stream or buy the record. The design moved on from my initial design as can be seen in my figma designs. I used microsoft image generator and open art AI to bring together an album cover that suited the look of the website. 
 
 ##### Desktop
 
@@ -176,14 +176,18 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Singer Image
 
->I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites there had been imagery of the band on the site. So, I found an image on unsplash that I used. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
+>I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites there had been imagery of the band on the site that can create a sense of familiarity with with the fans/users. 
+
+I found an image on unsplash that I used for this purpose. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
 
 ![Image of lead singer on homepage](docs/lead-singer.png)
 
 
 #### Tours section on Home Page
 
->I had seen a lot of other websites that had a few tour dates on the homepage that would then link to a page or external site where an entire touring schedule could be reviewed by the visitor, so I included that as the second section on the homepage. The tour dates information was in a column in mobile and using flex those columns were changed to rows to fill the surplus space. 
+>This section is a summary of the main tours page, but can entice a user who is interested in going to a show to purchase a ticket, or click the more dates button and view all the dates of upcoming shows.
+
+The tour dates information is a flex column on mobile and using flex and changed to rows to fill the surplus space on larger screens. 
 
 ##### Desktop
 
@@ -195,7 +199,9 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Footer 
 
->The main purpose of the footer in this website was to provide links to social media and a form for the visitor to subscribe to a newsletter. Also, I included some links that are standard in terms of a copyright tag,  a link to the designers webpage, and a link to the  cookie policy.
+>The main purpose of the footer in this website was to provide links to social media and a form for the visitor to subscribe to a newsletter, and keep up to date with touring schedules, new releases, and any developments that happen with the band. 
+
+Also, I included some links that are standard in terms of a copyright tag,  a link to the designers webpage, and a link to the  cookie policy.
 
 ##### Desktop
 
@@ -208,7 +214,9 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ### tours.html
 
->The tours page was to inlcude more dates than are featured on the homepage. In order to vary the aesthetic of the site and offer some variation between the pages I used the image from the homepage and fixed it to the background.
+>The tours page was to inlcude more dates than are featured on the homepage. 
+
+In order to vary the aesthetic of the site and offer some variation between the pages I used the image from the homepage and fixed it to the background. Also, as a user/fan this would again create a sense of famility with the lead singer and the band. 
 
 ##### Desktop
 
@@ -220,11 +228,12 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 ### music.html
 
->The music page was to feature a section for listening and for watching videos of the band. Given that Blood Red are a fictional band, I obviously didn't have original audio and video files, or actual an actual spotify/youtube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
+>The music page features a section for listening and for watching videos of the band.
+Given that Blood Red are a fictional band, I didn't have original audio and video files, or actual an actual spotify/YouTube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
 
 #### Listen Section
 
-The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a flex container for this listen section to wrap so it would appear as a column on smaller screens. 
+The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a flex container for this listen section to wrap so it would appear as a column on smaller screens. This section provides value to the user as they can listen to new records, and if they like what they hear back opt to purchase the record. 
 
 I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. 
 
@@ -242,7 +251,9 @@ I think it would have suited the aethetic of the website if there was some red, 
 
 The watch section allows users to watch music videos of the band. I inlcuded four videos and a button/link below where the user can visit the youtube page of the band.
 
-Similar to the listen section there is a flex container for the watch section set to wrap, so there are rows of two videos on desktops, and videos in a single column on mobile devices. 
+Similar to the listen section there is a flex container for the watch section set to wrap, so there are rows of two videos on desktops, and videos in a single column on mobile devices.
+
+This section again provides value to the user by being able to watch videos of their favourite songs or discover new music, and be linked to the bands youtube account through the watch more button to listen further. 
 
 ##### Desktop 
 
@@ -254,11 +265,11 @@ Similar to the listen section there is a flex container for the watch section se
 
 ### response.html 
 
-For the purpose of having some recognization of the form in the footer being submitted. Once the user clicks on submit they are redirected to response.html, which recognises their submission, and offers them a free download of a new single.
+Once the user enters their information correctly into the inputs of the 'Subscribe to newsletter' form in the footer, they are redirected to response.html which recognises their submission, and offers them a free download of a new single.
 
-I did this by using an anchor element as opposed to an input="submit" button. By doing so, once the user enters their information and 'submit' is clicked, the user is redirected to the response.html page. 
+This will give the user clarificaiton that their information has been recieved and that they are in fact signed up to the newsletter, as well as please them by offering them a gift of sorts. 
 
-Also, I added some buttons that the user can click to download the single, go to the homepage, or the listen page. 
+Also, I added some buttons that the user can click to download the single, return to the homepage, or to the bands page of spotify. 
 
 ##### Desktop
 
@@ -267,6 +278,99 @@ Also, I added some buttons that the user can click to download the single, go to
 #### Mobile
 
 ![Response page on desktop](docs/features/response-mobile.png)
+
+### Features left to implemenent
+
+In future, features that could be added to improve the site could be:
+
+#### Store
+
+If revisiting this project I would like to add a store where users can buy merch such as physical records or branded clothes. 
+
+#### Gallery
+
+With some further research more pictures that are suitable could be found and a gallery page built around those images to create a realistic image of the band. 
+
+#### 
+
+Taking influence from some other bands a brief history of the band could be created, and a suitable about page be built around that story. 
+
+## Technology
+
+### Figma 
+
+>I used figma to develop my designs for the web pages. 
+
+### Html
+
+>I used html to build the structure of the webpages.
+
+### css
+
+>I used css to add style to the front end of the website. 
+
+### Github
+
+> I used github to host my websites code. 
+
+### Gitpod
+
+>I used gitpod as my IDE to write my code.
+
+### Git 
+
+>Git was used as version control of the site. 
+
+### Google Fonts
+
+>I imported the inter font into my project to use on the website. 
+
+### Font Awesome 
+
+### TinyPNG 
+
+I used TinyPNG to compress my images and optimize for the website. 
+
+### Microsoft AI image Generator
+
+I used this generator to generate images for an album cover. 
+
+### Open Art AI 
+
+I used this to generate images for the website. 
+
+## Testing 
+
+To test the websites functionity and responsive across different browsers I checked on: 
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari 
+
+#### Responsiveness
+
+Throughout the development process I used dev tools in Google Chrome to test the sites responsiveness across different screen sizes. 
+
+#### Third party testing
+
+My three housemates were sent the link to the site and asked to:
+
+- Click on every link/button. 
+- Play the audio files.
+- Enter their information into the form in the footer. 
+
+They reported that it was intuitive, all the links worked, and the form responded as it should. 
+
+### Google Lighthouse
+
+
+
+
+
+
+
+
 
 
 
