@@ -18,7 +18,7 @@ body {
     /*add flex to move footer to end of page (main set to flex: 1)  */
     display: flex;
     flex-direction: column;
-    background: black url("../images/black-background.jpg") no-repeat fixed center center/cover;
+    background: black url("../images/black-background.webp") no-repeat fixed center center/cover;
     
 
 }
@@ -131,6 +131,11 @@ nav {
     font-weight: 900;
     font-size: 35px;
     color: white;
+}
+
+.active {
+    color: red; 
+    border-bottom: red solid 2px; 
 }
 
 
