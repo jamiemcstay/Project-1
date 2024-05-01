@@ -515,7 +515,7 @@ audio {
     margin: 0 auto 0 auto;
     gap: 30px;
     flex-wrap: wrap;
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
 }
 
 .music-video {
@@ -536,9 +536,12 @@ audio {
 }
 
 .watch-more-button-container {
-    width: 100%;
+    width: 80%;
     text-align: center;
-    margin: 0 auto 30px auto;
+    margin: 0 auto;
+    max-width: 500px;
+    padding-bottom: 40px; 
+
 }
 
 .watch-more-button {
