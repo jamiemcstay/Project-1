@@ -2,9 +2,11 @@
 ## Website for fictional rock band
 ### Portfolio Project 1 - Jamie Mcstay
 
+![Blood Red website as it appears on all screens](docs/testing/am-i-responsive-image.png)
+
 ## **[Live site](https://jamiemcstay.github.io/Project-1/)**
 
-## **[Respository](https://github.com/jamiemcstay/Project-1)**
+## **[Repository](https://github.com/jamiemcstay/Project-1)**
 
 ## Table of contents
 
