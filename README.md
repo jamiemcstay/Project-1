@@ -425,6 +425,31 @@ When putting my site through Wave Accessibility for an evaluation of its accessi
 
 >I then waited for a couple of mins, refreshed the page and my sites link was accessible through the repository. 
 
+## Credits
+
+### Images were sourced from unsplash.com and from using Open Art AI and Microsoft Image generator
+
+>Album Image was made using Microft AI Image generator: 
+https://create.microsoft.com/en-us/features/ai-image-generator
+
+>Singer Image on home page is an AI edited version of this image: https://unsplash.com/photos/man-playing-guitar-while-singing-QA-qQfWJM0E
+
+>Echoes of the fallen single cover art by Jon Tyson from unsplash: https://unsplash.com/photos/black-white-and-red-abstract-painting-WB9TRkyrlzk
+
+>Youtube video 1: Tears Don't Fall by Bullet for my valentine: https://www.youtube.com/watch?v=9sTQ0QdkN3Q
+
+>Youtube video 2: How you Remind Me by Nickelback: https://www.youtube.com/watch?v=Aiay8I5IPB8
+
+>Youtube video 3: Kryptonite by 3 Doors Down: https://www.youtube.com/watch?v=xPU8OAjjS4k
+
+>Youtube video 4: Wherever you will go by The Calling: https://www.youtube.com/watch?v=iAP9AF6DCu4
+
+
+### Audio was sourced through uppbeat
+
+
+
+
 
 
 
