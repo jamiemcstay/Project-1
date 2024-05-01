@@ -1,17 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Links:
-
-https://www.w3schools.com/html/html5_audio.asp
-https://www.youtube.com/watch?v=vGHrJDmepI0
-https://www.w3schools.com/howto/howto_js_alert.asp
-https://www.shecodes.io/athena/39031-how-to-create-an-alert-after-clicking-a-button-using-javascript#:~:text=In%20this%20example%2C%20we%20add,message%20%22Button%20clicked!%22.
-https://www.w3schools.com/cssref/sel_hover.php
-https://uppbeat.io/
-https://www.flaticon.com/free-icon/blood-drop_893529?term=blood+drop&page=1&position=5&origin=search&related_id=893529
-https://web.dev/articles/apply-instant-loading-with-prpl
-
-
 #   Blood Red
 ## Website for fictional rock band
 ### Portfolio Project 1 - Jamie Mcstay
@@ -35,10 +21,10 @@ https://web.dev/articles/apply-instant-loading-with-prpl
 <a name="planning"></a>
 ## Project Planning
 
->I decided to make a website on a fictional rock band and did some research into some popular bands and how their websites looked.
+I decided to make a website on a fictional rock band and did some research into some popular bands and how their websites looked.
 
 
-![Screenshot of websites referenced in planning stage of website](docs/research/website-research.jpg)
+![Websites referenced during planning stages](docs/research/website-research.jpg)
 
 After researching I began a UX design plan that was in line with what I had seen across numerous of the websites that I had reviewed.
 
@@ -228,7 +214,7 @@ In order to vary the aesthetic of the site and offer some variation between the 
 
 ### music.html
 
->The music page features a section for listening and for watching videos of the band.
+The music page features a section for listening and for watching videos of the band.
 Given that Blood Red are a fictional band, I didn't have original audio and video files, or actual an actual spotify/YouTube account that I could use to embed songs or videos from.  As an alternative I used audio files that I downloaded from Uppbeat.io and used audio elements to feature them on the page. Then, I embedded some youtube videos of other bands.
 
 #### Listen Section
@@ -291,7 +277,7 @@ If revisiting this project I would like to add a store where users can buy merch
 
 With some further research more pictures that are suitable could be found and a gallery page built around those images to create a realistic image of the band. 
 
-#### 
+#### About Page
 
 Taking influence from some other bands a brief history of the band could be created, and a suitable about page be built around that story. 
 
@@ -299,31 +285,30 @@ Taking influence from some other bands a brief history of the band could be crea
 
 ### Figma 
 
->I used figma to develop my designs for the web pages. 
+I used figma to develop my designs for the web pages. 
 
 ### Html
 
->I used html to build the structure of the webpages.
+I used html to build the structure of the webpages.
 
 ### css
-
->I used css to add style to the front end of the website. 
+I used css to add style to the front end of the website. 
 
 ### Github
 
-> I used github to host my websites code. 
+I used github to host my websites code. 
 
 ### Gitpod
 
->I used gitpod as my IDE to write my code.
+I used gitpod as my IDE to write my code.
 
 ### Git 
 
->Git was used as version control of the site. 
+Git was used as version control of the site. 
 
 ### Google Fonts
 
->I imported the inter font into my project to use on the website. 
+I imported the inter font into my project to use on the website. 
 
 ### Font Awesome 
 
@@ -366,7 +351,7 @@ They reported that it was intuitive, all the links worked, and the form responde
 
 When testing the score for the website through Google Lighthouse. I encountered an issue with my site being slow on the performance metric.
 
-To fix thi: 
+To fix this: 
 
 - I tidied up my CSS file and deleted any unused images from the images folder. 
 
@@ -374,11 +359,23 @@ To fix thi:
 
 - Re-exported all my image files from figma, which resulted in a degredation of quality, but will massively improve the experience for the user.
 
->These fixes resulted in a score of 27%-31% on all pages to to between 80%-95% across all pages. 
+These fixes increased the performance score from between 27%-31% to between 80%-95% across all pages. 
 
 #### index.html
 
+![Google Lighthouse score on index.html page](docs/testing/index.html-lighthouse.jpg)
 
+#### tours.html 
+
+![Google Lighthouse score on tours.html](docs/testing/tours.html-lighthouse.jpg)
+
+#### music.html
+
+![Google Lighthouse score on music.html page](docs/testing/music.html-lighthouse.jpg)
+
+#### response.html
+
+![Google Lighthouse score on response.html page](docs/testing/response.html-lighthouse.jpg)
 
 ## Bugs 
 
