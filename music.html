@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!--Font awesome-->
     <script src="https://kit.fontawesome.com/1292c16ab0.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"> -->
-    <!--Favicon-->
+    <!--Page title-->
     <title>Music - Blood Red</title>
+    <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon/blood-drop.png">
 </head>
 
@@ -27,7 +29,7 @@
     <header>
         <a href="index.html" aria-label="Logo and link to homepage">
             <h1>Blood Red</h1>
-        </a>
+        </a>        
         <!--Creat input and label to be used for hamburger menu-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="Click to show links to website pages">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -39,13 +41,15 @@
             </ul>
         </nav>
     </header>
+
     <!--Start of main content-->
     <main>
-
+        <!--Start of listen section-->
         <section class="listen">
-
             <h2 class="music-page-h2">Listen</h2>
+            <!--Listen section wrapper-->
             <div class="listen-wrapper">
+                <!--Start of listen container for album-->
                 <div class="listen-container">
                     <div class="album-cover-and-text-wrapper">
                         <div class="album-cover">
@@ -57,60 +61,79 @@
                             <p class="red"><strong>Blood Red</strong></p>
                         </div>
                     </div>
+
                     <figure class="song-title">
                         <figcaption>1.Echoes of the Abyss</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" aria-label="Echoes of the Abyss by Blood Red">
                         <source src="assets/audio/into-the-red-trinity-main-version-02-17-1292.mp3" type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>2.Scarlet Serenade</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" aria-label="Scarlet Serenade by Blood Red">
                         <source src="assets/audio/night-thunder-abbynoise-main-version-02-38-13101.mp3"
                             type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>3.Bloodstream Memories</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" aria-label="Bloodstream Memories by Blood Red">
                         <source src="assets/audio/pursuit-abbynoise-main-version-02-33-17442.mp3" type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>4.Fireside Lament</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" aria-label="Fireside Lament by Blood Red">
                         <source src="assets/audio/into-the-red-trinity-main-version-02-17-1292.mp3" type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>5.Sanguine Symphony</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" type="mp3" aria-label="Sanguine Symphony by Blood Red">
                         <source src="assets/audio/night-thunder-abbynoise-main-version-02-38-13101.mp3"
                             type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>6.Dance of Shadows</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" type="mp3" aria-label="Dance of Shadows by Blood Red">
                         <source src="assets/audio/pursuit-abbynoise-main-version-02-33-17442.mp3" type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>7.Heartbeat of Darkness</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" type="mp3" aria-label="Heartbeat of Darkness by Blood Red">
                         <source src="assets/audio/into-the-red-trinity-main-version-02-17-1292.mp3" type="audio/mpeg">
                     </audio>
+
                     <figure class="song-title">
                         <figcaption>8.Crimson Horizon</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" type="mp3" aria-label="Crimson Horizon by Blood Red">
                         <source src="assets/audio/night-thunder-abbynoise-main-version-02-38-13101.mp3"
                             type="audio/mpeg">
                     </audio>
-
+                <!--End of listen container for album-->    
                 </div>
+
+                <!--Start of listen container for single-->
                 <div class="listen-container">
+
                     <div class="album-cover-and-text-wrapper">
                         <div class="album-cover">
                             <img src="assets/images/album-cover-2.png" alt="Echoes of the fallen single cover">
@@ -121,19 +144,25 @@
                             <p class="red"><strong>Blood Red</strong></p>
                         </div>
                     </div>
+
                     <figure class="song-title">
                         <figcaption>Echoes of the fallen</figcaption>
                     </figure>
+
                     <audio controls class="audio-files" type="mp3" aria-label="Echoes of the Fallen by Blood Red">
                         <source src="assets/audio/into-the-red-trinity-main-version-02-17-1292.mp3" type="audio/mpeg">
                     </audio>
+                <!--End of listen container for single-->     
                 </div>
-
+                <!--End of listen section wrapper-->   
             </div>
+        <!--End of listen section-->    
         </section>
 
+        <!--Start of watch section-->
         <section class="watch">
             <h2 class="music-page-h2">Watch</h2>
+            <!--Wrapper div for watch section-->
             <div class="watch-wrapper">
                 <div class="music-video">
                     <iframe class="youtube-video" width="560" height="315"
@@ -142,6 +171,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+
                 <div class="music-video">
                     <iframe class="youtube-video" width="560" height="315"
                         src="https://www.youtube.com/embed/Aiay8I5IPB8?si=YzlwdZ7JIGbGREer" title="YouTube video player"
@@ -149,6 +179,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+
                 <div class="music-video">
                     <iframe class="youtube-video" width="560" height="315"
                         src="https://www.youtube.com/embed/xPU8OAjjS4k?si=4j7jnUGG-HiAQsgJ" title="YouTube video player"
@@ -156,6 +187,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+
                 <div class="music-video">
                     <iframe class="youtube-video" width="560" height="315"
                         src="https://www.youtube.com/embed/iAP9AF6DCu4?si=NSKkH7tWmRY6z8tk" title="YouTube video player"
@@ -163,21 +195,26 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                
+            <!--End of watch section wrapper-->      
             </div>
-            <div class="watch-more-button-container">
-                    <a href="https://www.youtube.com/" target="_blank" class="watch-more-button red-button"
-                        aria-label="Watch more videos">Watch More</a>
-                </div>
-        </section>
 
+            <div class="watch-more-button-container">
+                <a href="https://www.youtube.com/" target="_blank" class="watch-more-button red-button"
+                    aria-label="Watch more videos">Watch More</a>
+            </div>
+        <!--End of watch section-->    
+        </section>
+    <!--End of main content-->    
     </main>
+
+    <!--Footer start-->
     <footer>
-        <h2>SUBSCRIBE TO NEWSLETTER</h2>
+        <h2>Subscribe to newsletter</h2>
+        <!--Subscription form-->
         <form id="sign-up-form" method="GET" action="response.html">
 
             <div class="form-block">
-                <label for="name" value="NAME">Name</label>
+                <label for="name">Name</label>
                 <input type="text" id="name" name="username" aria-label="Enter your name">
             </div>
 
@@ -188,8 +225,9 @@
 
             <button type="submit" class="subscribe-button red-button"
                 aria-label="Subscribe to newsletter">Subscribe</button>
-
+        <!--End of subscription form-->    
         </form>
+
         <ul class="footer-text">
             <li>&copy; 2024 Blood Red</li>
             <li><a href="https://www.cookiebot.com" target="_blank" aria-label="Link to websites cookie policy"
@@ -199,6 +237,8 @@
                     aria-label="Visit website designers website">Jamie
                     McStay</a></li>
         </ul>
+
+        <!--Social media icons-->
         <ul class="footer-icons">
             <li><a href="https://open.spotify.com/" target="_blank"><i class="fa-brands fa-spotify"
                         aria-label="Visit Blood Red on Spotify"></i></a></li>
@@ -215,6 +255,7 @@
             <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
                         aria-label="Visit Blood Red on Instagram"></i></a></li>
         </ul>
+    <!--Footer end-->    
     </footer>
 
 </body>
