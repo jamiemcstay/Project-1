@@ -412,6 +412,7 @@ figure {
     text-transform: uppercase;
     margin-bottom: 40px;
     letter-spacing: 15px;
+    padding-top: 0; 
     
 }
 
@@ -433,6 +434,7 @@ figure {
     flex-direction: column;
     margin: 0 auto;
     max-width: 288px;
+    margin-bottom: 40px; 
 }
 
 
@@ -795,7 +797,7 @@ input[type="email"] {
         margin-bottom: 0;
     }
 
-    /*Remove nav bar on large screens, credit to love running tutorial*/
+    /*remove nav bar on large screens*/ 
     .nav-toggle-label {
         display: none;
     }
@@ -835,20 +837,11 @@ input[type="email"] {
         margin: 0 auto;
     }
 
-    .listen-container {
-        justify-content: normal;
-    }
-
     .music-video {
         width: 100%
     }
 
     /*Footer styles*/
-
-    #subscribe-button {
-        margin-left: 50px;
-        flex-shrink: inherit;
-    }
 
     .footer-text {
         width: 100%;
@@ -867,10 +860,7 @@ input[type="email"] {
 
 @media screen and (min-width: 1024px) {
 
-    /*Nav bar styles*/
-    nav {
-        margin-right: 50px;
-    }
+    /*Subscription form*/
 
     form {
         flex-direction: row;
@@ -882,10 +872,12 @@ input[type="email"] {
         align-self: baseline;
     }
 
-    #sign-up-button {
+    .subscribe-button {
         margin-bottom: 0;
         align-self: baseline;
     }
+
+    /*Listen wrapper*/
 
     .listen-wrapper {
         justify-content: space-between;
@@ -895,9 +887,14 @@ input[type="email"] {
 
 @media screen and (min-width: 1200px) {
 
+    nav {
+        margin-right: 50px; 
+    }
+
 
     #nav-items {
         /*add more space between items in nav bar*/
+        display: flex;
         justify-content: space-between;
     }
 
