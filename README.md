@@ -363,21 +363,51 @@ To fix this:
 
 These fixes increased the performance score from between 27%-31% to between 80%-95% across all pages. 
 
+
 #### index.html
 
 ![Google Lighthouse score on index.html page](docs/testing/index.html-lighthouse.jpg)
 
 #### tours.html 
 
-![Google Lighthouse score on tours.html](docs/testing/tours.html-lighthouse.jpg)
+![Google Lighthouse score on tours.html](docs/testing/tours.html-lighthouse.png)
 
 #### music.html
 
-![Google Lighthouse score on music.html page](docs/testing/music.html-lighthouse.jpg)
+![Google Lighthouse score on music.html page](docs/testing/music.html-lighthouse.png)
 
 #### response.html
 
-![Google Lighthouse score on response.html page](docs/testing/response.html-lighthouse.jpg)
+![Google Lighthouse score on response.html page](docs/testing/response.html-lighthouse.png)
+
+### HTML Validation
+
+When putting my html files through the html validator, there were some errors that were easily rectifiable:
+
+- aria-labels were in i element instead of anchor element in the footer  icons, so they were moved. 
+- Removing frameborders from iframes.
+- Source elements within audio elements had incorrect type. type="audio/mpeg" was added. 
+
+#### index.html
+
+![Screenshot of html validation report for index.html](docs/testing/html-validation-index.png)
+
+#### tours.html
+
+![Screenshot of html validation report for tours.html](docs/testing/html-validation-tours.png)
+
+#### music.html 
+
+![Screenshot of html validation report for music.html](docs/testing/html-validation-music.png)
+
+#### response.html 
+
+![Screenshot of html validation report for response.html](docs/testing/html-validation-response.png)
+
+### CSS Validation
+
+![Screenshot of jigaw csss validation](docs/testing/css-validation.png)
+
 
 ## Bugs 
 
