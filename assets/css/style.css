@@ -146,7 +146,7 @@ main {
 /*Album section styles*/
 
 #album-section {
-    background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
+    background: black url("../images/black-background.jpg") no-repeat fixed center center/cover;
 }
 
 
