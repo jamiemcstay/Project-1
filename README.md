@@ -26,7 +26,7 @@ https://web.dev/articles/apply-instant-loading-with-prpl
 2. [ Features](#features)
 3. [ Technology](#technology)
 4. [ Testing ](#testing)
-5. [ Errors ](#errors)
+5. [ Bugs ](#bugs)
 6. [ Deployment ](#deployment)
 7. [ Credits ](#credits)
 8. [ Content ](#content)
@@ -382,11 +382,48 @@ To fix thi:
 
 
 
-### Bugs 
+## Bugs 
 
-remove iframes
+- Applied border: none to an iframe rule to remove frameborders from iframes. 
 
-Move main down below and push footer down with flex
+- Moved main element below fixed header with padding.
+
+- Issue with image file sizes and loading speed fixed by re-exporting images at smaller file size. 
+
+- Reducing audio src elements to three to speed up loading times on music page and increase performance score.
+
+- Aligning buttons in album section correctly fixed with flex and media queries.
+
+- Aligning "Watch More" button on music page fixed 
+
+- Removed lang=en from spotify icon for to take out of pop up when hovering over icon. 
+
+- Replace button elements that mistakenly had hrefs with a tags to allow for correct navigation of site features. 
+
+- Fixed file names and file paths to standardised and optimized across all browsers. 
+
+### Bugs not fixed 
+
+#### Contrast ratio of small red text
+
+When putting my site through Wave Accessibility for an evaluation of its accessibility, it reported poor contrast of the small red text in the tours section and within the reviews of the album section on the home page. 
+
+>I acknowledged this and attempted to change it,  but opted to leave the text as it was because I believe the text worked as part of the design, and there as good contrast with the other elements around it. 
+
+![Wave report of of contrast score](docs/testing/wave-score.png)
+
+## Deployment 
+
+>The steps I followed to deploy my project were as follows:
+
+1. Accessed my gituhub respository.
+2. Clicked on settings tab. 
+3. Selected the pages menu in the sidebar. 
+4. Under source I selected to deploy from the main branch from the dropdown menu.
+5. Leave /root as default option.
+6. Click Save.
+
+>I then waited for a couple of mins, refreshed the page and my sites link was accessible through the repository. 
 
 
 
