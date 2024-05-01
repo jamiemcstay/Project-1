@@ -9,6 +9,7 @@ https://www.shecodes.io/athena/39031-how-to-create-an-alert-after-clicking-a-but
 https://www.w3schools.com/cssref/sel_hover.php
 https://uppbeat.io/
 https://www.flaticon.com/free-icon/blood-drop_893529?term=blood+drop&page=1&position=5&origin=search&related_id=893529
+https://web.dev/articles/apply-instant-loading-with-prpl
 
 
 #   Blood Red
