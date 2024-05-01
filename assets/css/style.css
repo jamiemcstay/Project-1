@@ -2,12 +2,12 @@
 
 /*override default browser styles*/
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 
 body {
     height: 100%;
@@ -15,7 +15,7 @@ body {
     background-color: black;
     font-family: 'Inter';
     color: white;
-    /*add flex to move footer to end of page (main set to flex: 1,  */
+    /*add flex to move footer to end of page (main set to flex: 1)  */
     display: flex;
     flex-direction: column;
 
@@ -100,7 +100,7 @@ header {
     color: rgb(180, 0, 0);
 }
 
-/*nav bar styles with dropdown toggle*/
+/*nav bar styles with dropdown toggle. Credit to Love Running tutorial*/
 
 nav {
     position: absolute;
@@ -139,24 +139,8 @@ main {
     height: auto;
     /*make main element take up any surplus space to push footer down*/
     flex: 1;
-    /*push main down beloqw fixed header*/
+    /*push main down below fixed header*/
     padding-top: 80px;
-}
-
-#hero {
-    width: 100%;
-    position: relative;
-    top: 50px;
-    margin-bottom: 40px;
-}
-
-#hero-image {
-    width: 100%;
-    margin: 0;
-}
-
-#hero-image img {
-    width: 100%;
 }
 
 /*Album section styles*/
@@ -164,7 +148,6 @@ main {
 #album-section {
     background: black url("images/black-background.jpg") no-repeat fixed center center/cover;
 }
-
 
 
 .album-section-h2 {
@@ -175,7 +158,6 @@ main {
 
 }
 
-/*Album section image*/
 
 .album-image {
     margin-bottom: 20px;
@@ -210,7 +192,7 @@ main {
     margin-bottom: 30px;
 }
 
-.reviews>figure {
+.reviews > figure {
     margin-bottom: 30px;
 }
 
