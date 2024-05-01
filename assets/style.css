@@ -772,12 +772,7 @@ input[type="email"] {
 
 @media screen and (min-width: 768px) {
 
-    /*header*/
-
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
+    /*Nav*/
 
     nav {
         display: block;
@@ -800,6 +795,7 @@ input[type="email"] {
         margin-bottom: 0;
     }
 
+    /*Remove nav bar on large screens, credit to love running tutorial*/
     .nav-toggle-label {
         display: none;
     }
@@ -902,7 +898,6 @@ input[type="email"] {
 
     #nav-items {
         /*add more space between items in nav bar*/
-        display: flex;
         justify-content: space-between;
     }
 
