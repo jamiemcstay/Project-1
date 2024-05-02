@@ -531,6 +531,8 @@ https://create.microsoft.com/en-us/features/ai-image-generator
 
 >Social Media Icons were from Font Awesome: https://fontawesome.com/icons/twitter?f=brands&s=solid
 
+>ChatGPT was used to generate the names of song and album titles for the band
+
 
 ### Audio was sourced through uppbeat
 
