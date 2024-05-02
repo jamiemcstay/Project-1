@@ -17,7 +17,6 @@
 5. [ Bugs ](#bugs)
 6. [ Deployment ](#deployment)
 7. [ Credits ](#credits)
-8. [ Content ](#content)
 9. [ Acknowledgments ](#acknowledgements)
 
 <a name="planning"></a>
@@ -38,7 +37,7 @@ After researching I began a UX design plan that was in line with what I had seen
 - Are existing fans of the band.
 - Are visiting the website to learn more about the band or they are potential fans.
 - Want to be able to hear about the bands touring schedule.
-- Want to be to have access to the bands music.
+- Want to have access to the bands music.
 - Want updates on anything new that happens with the band.
 
 ### Site owners/bands goals
@@ -75,7 +74,7 @@ Across all pages as is consistent on websites, there will be a header with respo
 
 ### Tours
 
-- Will serve as a page where visotors can view tour dates, check availability of ticktets, and be able to buy tickets for upcoming shows. 
+- Will serve as a page where visitors can view tour dates, check availability of ticktets, and be able to buy tickets for upcoming shows. 
 
 ### Music
 
@@ -84,7 +83,7 @@ Across all pages as is consistent on websites, there will be a header with respo
 
 ## Skeleton
 
-I used figma to build a wireframes of the different pages on the site. I decided to design the website mobile first.  
+I used figma to build wireframes of the different pages on the site. I decided to design the website mobile first.  
 
 ![Screenshot of the homepage wireframe in figma](docs/wireframes/wireframes.jpg)
 
@@ -106,7 +105,7 @@ I used figma to build a wireframes of the different pages on the site. I decided
 
 ### Typography 
 
-When designing the surface plane in figma, I had used: 
+When designing the surface plane in figma, I used: 
 - Krona 1
 - Inter
 
@@ -117,7 +116,7 @@ However, when making the real website I preferred the look of inter as a font on
 To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand in contrast to eachother: 
 - Black 
 - Red (or eventually rgb(199, 0, 0))
-- White. 
+- White
 
 #### Homepage
 
@@ -170,7 +169,7 @@ The design moved on from my initial design as can be seen in my figma designs. I
 
 #### Singer Image
 
-I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites imagery of the band on the site that can create a sense of familiarity with exisiting fans/users and let new users know who is behind the music.  
+I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites imagery of the band on the site can create a sense of familiarity with exisiting fans/users and let new users know who is behind the music.  
 
 I found an image on unsplash that I used for this purpose. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female.
 
@@ -193,11 +192,11 @@ The tour dates information is a flex column on mobile and using flex and changed
 
 #### Footer 
 
-The main purpose of the footer in this website was to provide links to social media, and a form for the user to subscribe to a newsletter:
+The main purpose of the footer in this website was to provide links to social media, and a form for users to subscribe to a newsletter:
 
-- Keep up to date with touring schedules, 
+- Keep up to date with touring schedules 
 - New releases 
-- New developments that happen with the band. 
+- New developments that happen with the band 
 
 Within the form, I used a required attribute on the input elements to ensure the user enters a name and email address befor submitting their information. 
 
@@ -307,9 +306,10 @@ These buttons are used as calls to action and to guide the user to the most part
 
 - 'Tickets' - link to ticketmaster
 - 'Steam' - link spotity
-- 'Buy' - link intunes
+- 'Buy' - link to tunes
 - 'Subsribe' - links to a message in respnse to subscription
 - 'Watch more' - links to Youtube
+- Download, Listen, Homepage - link to itunes, spotify and index.html
 
 I implemented a hover effect on the buttons, changing them to a brighter red, to enhance interactivity and validate user interaction. 
 
@@ -326,6 +326,8 @@ Also, for the sold out buttons, I disabled the cursor so they are unclickable. T
 ![Tickets button on tour dates](docs/features/tickets-button.png)
 
 ![Sold out button for tour dates](docs/features/sold-out-button.png)
+
+![Reponse page buttons](docs/features/response-page-buttons.png)
 
 ## Technology
 
@@ -346,7 +348,7 @@ I used github to host my websites code.
 
 ### Gitpod
 
-I used gitpod as my IDE to write my code.
+I used gitpod to write my code.
 
 ### Git 
 
@@ -403,7 +405,7 @@ To fix this:
 
 - I tidied up my CSS file and deleted any unused images from the images folder. 
 
-- Removed the src element from all but but the first three audio tracks/elements on the listen page, so please note that only the first three aui tracks are playable.
+- Removed the src element from all but but the first three audio tracks/elements on the listen page, so please note that only the first three audio tracks are playable.
 
 - Re-exported all my image files from figma at a lower file size, which resulted in a degredation of quality, but will massively improve the experience for the user.
 
@@ -469,11 +471,11 @@ When putting my html files through the html validator, there were some errors th
 
 - Aligning "Watch More" button on music page fixed. 
 
-- Removed lang=en from spotify icon for to take out of pop up when hovering over icon. 
+- Removed lang=en from spotify icon hyperlink to take out of pop up when hovering over icon. 
 
-- Replace button elements that mistakenly had hrefs with a tags to allow for correct navigation of site features. 
+- Replace button elements that mistakenly had hrefs with anchor to allow for correct navigation of site features. 
 
-- Fixed file names and file paths to standardised and optimized across all browsers.
+- Fixed file names and file paths to standardise and optimize compatability across all browsers.
 
 - aria-labels placed incorrectly in the i elements in the footer as oppossed to the anchor elements, which was fixed. 
 
@@ -502,7 +504,9 @@ I then waited for a couple of mins, refreshed the page and my sites link was acc
 
 ## Credits
 
-### Images were sourced from unsplash.com and from using Open Art AI and Microsoft Image generator
+### Content
+
+#### Images were sourced from unsplash.com and from using Open Art AI and Microsoft Image generator
 
 >Album Image was made using Microft AI Image generator: 
 https://create.microsoft.com/en-us/features/ai-image-generator
@@ -541,7 +545,7 @@ https://create.microsoft.com/en-us/features/ai-image-generator
 >Nav toggle code for smaller size screens credited to Love Running Tutorial from Code Institute.
 
 >Other resources used during the building of this site as reference include:
-- MDN Docs
+- MDN Web Docs
 - Code Institute Content
 - W3 Schools
 
