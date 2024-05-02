@@ -313,6 +313,8 @@ These buttons are used as calls to action and to guide the user to the most part
 
 I implemented a hover effect on the buttons, changing them to a brighter red, to enhance interactivity and validate user interaction. 
 
+Also, for the sold out buttons, I disabled the cursor so they are unclickable. The contrast of the poor contract ratio of the sold out buttons is on purpose, as these buttons are relative to dates that are sold out and allow the buttons for available dates to stand out. 
+
 ![Stream and buy buttons in album section on homepage](docs/features/stream-buy-buttons.png)
 
 ![More dates button in tours section on homepage](docs/features/more-dates-button.png)
@@ -320,6 +322,10 @@ I implemented a hover effect on the buttons, changing them to a brighter red, to
 ![Subscribe button on homepage](docs/features/subscribe-button.png)
 
 ![Watch more button in watch section on music page](docs/features/watch-morer-button.png)
+
+![Tickets button on tour dates](docs/features/tickets-button.png)
+
+![Sold out button for tour dates](docs/features/sold-out-button.png)
 
 ## Technology
 
