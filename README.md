@@ -303,7 +303,7 @@ Taking influence from some other bands a brief history of the band could be crea
 
 I used red and white buttons across the page that would stand out from the darker backgrounds on the website.
 
-These buttons are used to guide the user to the most relevent pages or enternal sites relevant to a given section:
+These buttons are used as calls to action and to guide the user to the most parts of the website or to enternal sites: 
 
 - 'Tickets' - link to ticketmaster
 - 'Steam' - link spotity
@@ -312,6 +312,14 @@ These buttons are used to guide the user to the most relevent pages or enternal 
 - 'Watch more' - links to Youtube
 
 I implemented a hover effect on the buttons, changing them to a brighter red, to enhance interactivity and validate user interaction. 
+
+![Stream and buy buttons in album section on homepage](docs/features/stream-buy-buttons.png)
+
+![More dates button in tours section on homepage](docs/features/more-dates-button.png)
+
+![Subscribe button on homepage](docs/features/subscribe-button.png)
+
+![Watch more button in watch section on music page](docs/features/watch-morer-button.png)
 
 ## Technology
 
