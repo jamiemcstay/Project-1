@@ -233,7 +233,7 @@ Given that Blood Red are a fictional band, I didn't have original audio and vide
 
 #### Listen Section
 
-The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I set a flex container for this listen section to wrap so it would appear as a column on smaller screens. This section provides value to the user as they can listen to new records, and if they like what they hear back opt to purchase the record. 
+The listen section features an album and single with cover art for both, and a list of the relative songs for each release. I put the album and single containers into a flex container so it would appear as a column on smaller screens, and side by side on smaller screens. This section provides value to new users as they can listen to new records, and if they like what they hear back opt to purchase the record. 
 
 I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. 
 
