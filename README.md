@@ -33,7 +33,7 @@ After researching I began a UX design plan that was in line with what I had seen
 
 ## UX Strategy
 
-### Website visitors
+### User Stories
 
 - Are existing fans of the band.
 - Are visiting the website to learn more about the band or they are potential fans.
@@ -41,7 +41,7 @@ After researching I began a UX design plan that was in line with what I had seen
 - Want to be to have access to the bands music.
 - Want updates on anything new that happens with the band.
 
-### Musicians/Bands
+### Site owners/bands goals
 
 -  Want to promote their music.
 -  Want to promote their touring schedules.
@@ -51,7 +51,7 @@ After researching I began a UX design plan that was in line with what I had seen
 ## Scope
 
 - The website should contain a navigation menu, main content areas on each page and a footer.
-- It should contain an area that promotes new music. 
+- It should contain a section that promotes new music. 
 - There should be some imagery of the band on the website.
 - There should be information on the website about touring schedule.
 - Visitors should be able to listen to the bands music.
@@ -65,7 +65,7 @@ I decided that the scope of the project could be met with three pages on the web
 - Tours
 - Music
 
-Across all pages as is consistent on websites, there will be a consistent header with responsive naviagation bar, a main content area, and a footer that contains a form where fans can sign up to a newsletter. 
+Across all pages as is consistent on websites, there will be a header with responsive naviagation bar, a main content area, and a footer that contains a form where fans can sign up to a newsletter. 
 
 ### Homepage
 
@@ -107,14 +107,14 @@ I used figma to build a wireframes of the different pages on the site. I decided
 ### Typography 
 
 When designing the surface plane in figma, I had used: 
-- Krona 1 font
+- Krona 1
 - Inter
 
 However, when making the real website I preferred the look of inter as a font on its own, so I used that soley.
 
 ### Color
 
-To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand contrast eachother: 
+To allow for the site to meet the requirments in terms of accessibity and having a good contrast ratio, I opted to use colors that I knew would stand in contrast to eachother: 
 - Black 
 - Red (or eventually rgb(199, 0, 0))
 - White. 
@@ -140,7 +140,7 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Navigation menu
 
->The navigation bar was developed mobile first following the tutorial in the Love running project to create a hamburger menu on smaller screens. Flex was used to space out the navigation menu items on larger screens. 
+The navigation bar was developed mobile first following the tutorial in the Love running project to create a hamburger menu on smaller screens. Flex was used to space out the navigation menu items on larger screens. 
 
 ##### Desktop 
 
@@ -152,7 +152,13 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Album release section
 
->The album release release section was to show some cover art of the new album release of the band, some reviews from popular editorials, and some links where visitors can stream or buy the record. The design moved on from my initial design as can be seen in my figma designs. I used microsoft image generator and open art AI to bring together an album cover that suited the look of the website. 
+The album release release section shows 
+
+- Cover art of the new album release of the band
+- Reviews from popular editorials
+- Links where users can stream or buy the record. 
+
+The design moved on from my initial design as can be seen in my figma designs. I used microsoft image generator and open art AI to bring together an album cover that suited the look of the website and the image of the band.  
 
 ##### Desktop
 
@@ -164,16 +170,16 @@ To allow for the site to meet the requirments in terms of accessibity and having
 
 #### Singer Image
 
->I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites there had been imagery of the band on the site that can create a sense of familiarity with with the fans/users. 
+I wanted to break up the sections of content on the homepage, and as I had seen on multiple other band websites imagery of the band on the site that can create a sense of familiarity with exisiting fans/users and let new users know who is behind the music.  
 
-I found an image on unsplash that I used for this purpose. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female, and then fullfilled its purpose on the homepage. 
+I found an image on unsplash that I used for this purpose. However, when enlarged the image was pixilated and didn't look right. I then processed the image through the open art AI application that sharpened the image, and changed the singer from male to female.
 
 ![Image of lead singer on homepage](docs/features/lead-singer.png)
 
 
 #### Tours section on Home Page
 
->This section is a summary of the main tours page, but can entice a user who is interested in going to a show to purchase a ticket, or click the more dates button and view all the dates of upcoming shows.
+This section is a summary of the main tours page, but can entice a user who is interested in going to a show to purchase a ticket, or click the more dates button and view all the dates of upcoming shows.
 
 The tour dates information is a flex column on mobile and using flex and changed to rows to fill the surplus space on larger screens. 
 
@@ -187,7 +193,13 @@ The tour dates information is a flex column on mobile and using flex and changed
 
 #### Footer 
 
->The main purpose of the footer in this website was to provide links to social media and a form for the visitor to subscribe to a newsletter, and keep up to date with touring schedules, new releases, and any developments that happen with the band. 
+The main purpose of the footer in this website was to provide links to social media, and a form for the user to subscribe to a newsletter:
+
+- Keep up to date with touring schedules, 
+- New releases 
+- New developments that happen with the band. 
+
+Within the form, I used a required attribute on the input elements to ensure the user enters a name and email address befor submitting their information. 
 
 Also, I included some links that are standard in terms of a copyright tag,  a link to the designers webpage, and a link to the  cookie policy.
 
@@ -202,9 +214,9 @@ Also, I included some links that are standard in terms of a copyright tag,  a li
 
 ### tours.html
 
->The tours page was to inlcude more dates than are featured on the homepage. 
+The tours page inlcudes more concert dates than are featured on the homepage. 
 
-In order to vary the aesthetic of the site and offer some variation between the pages I used the image from the homepage and fixed it to the background. Also, as a user/fan this would again create a sense of famility with the lead singer and the band. 
+In order to vary the aesthetic of the site and offer some variation between the pages I used the image from the homepage and fixed it to the background. As a user/fan this would again create a sense of famility with the lead singer and the band. 
 
 ##### Desktop
 
@@ -226,6 +238,10 @@ The listen section features an album and single with cover art for both, and a l
 I would have preferred to have been able to style the audio controls such as the play button and playback bar, however this is not possible with audio elements. 
 
 I think it would have suited the aethetic of the website if there was some red, white and black in these audio elements, and would be noted if building a similar site again. 
+
+Please note that only the first three audio tracks are playable. This is due to long loading times when every audio element had a src element nested in it, and removing most of them suffiently improved the performance of the site. 
+
+
 
 ##### Desktop
 
@@ -255,9 +271,9 @@ This section again provides value to the user by being able to watch videos of t
 
 Once the user enters their information correctly into the inputs of the 'Subscribe to newsletter' form in the footer, they are redirected to response.html which recognises their submission, and offers them a free download of a new single.
 
-This will give the user clarificaiton that their information has been recieved and that they are in fact signed up to the newsletter, as well as please them by offering them a gift of sorts. 
+This will give the user clarificaiton that their information has been recieved and that they are signed up to the newsletter, as well as offering them something in return for their support of the band. 
 
-Also, I added some buttons that the user can click to download the single, return to the homepage, or to the bands page of spotify. 
+Also, I added some buttons that the user can click to download the single, return to the homepage, or to the bands spotify page. 
 
 ##### Desktop
 
@@ -282,6 +298,20 @@ With some further research more pictures that are suitable could be found and a 
 #### About Page
 
 Taking influence from some other bands a brief history of the band could be created, and a suitable about page be built around that story. 
+
+#### Buttons
+
+I used red and white buttons across the page that would stand out from the darker backgrounds on the website.
+
+These buttons are used to guide the user to the most relevent pages or enternal sites relevant to a given section:
+
+- 'Tickets' - link to ticketmaster
+- 'Steam' - link spotity
+- 'Buy' - link intunes
+- 'Subsribe' - links to a message in respnse to subscription
+- 'Watch more' - links to Youtube
+
+I implemented a hover effect on the buttons, changing them to a brighter red, to enhance interactivity and validate user interaction. 
 
 ## Technology
 
@@ -314,6 +344,8 @@ I imported the inter font into my project to use on the website.
 
 ### Font Awesome 
 
+I used font awesome for all icons on the site. 
+
 ### TinyPNG 
 
 I used TinyPNG to compress my images and optimize for the website. 
@@ -328,7 +360,7 @@ I used this to generate images for the website.
 
 ## Testing 
 
-To test the websites functionity and responsive across different browsers I checked on: 
+To test the websites functionity across different browsers I utilized: 
 
 - Google Chrome
 - Microsoft Edge
@@ -357,9 +389,9 @@ To fix this:
 
 - I tidied up my CSS file and deleted any unused images from the images folder. 
 
-- Removed the src element from all but but the first three audio tracks/elements on the listen page, so please not that only they are playable.
+- Removed the src element from all but but the first three audio tracks/elements on the listen page, so please note that only the first three aui tracks are playable.
 
-- Re-exported all my image files from figma, which resulted in a degredation of quality, but will massively improve the experience for the user.
+- Re-exported all my image files from figma at a lower file size, which resulted in a degredation of quality, but will massively improve the experience for the user.
 
 These fixes increased the performance score from between 27%-31% to between 80%-95% across all pages. 
 
@@ -384,9 +416,9 @@ These fixes increased the performance score from between 27%-31% to between 80%-
 
 When putting my html files through the html validator, there were some errors that were easily rectifiable:
 
-- aria-labels were in i element instead of anchor element in the footer  icons, so they were moved. 
-- Removing frameborders from iframes.
-- Source elements within audio elements had incorrect type. type="audio/mpeg" was added. 
+- aria-labels were placed in the i elements instead of anchor element in the footer  icons, so they were moved to the anchor elements. 
+- Frameborders should be moved from the iframe html element to a iframe rule with border: none in css.
+- Source elements within audio elements had an incorrect type. type="audio/mpeg" was added. 
 
 #### index.html
 
@@ -421,13 +453,15 @@ When putting my html files through the html validator, there were some errors th
 
 - Aligning buttons in album section correctly fixed with flex and media queries.
 
-- Aligning "Watch More" button on music page fixed 
+- Aligning "Watch More" button on music page fixed. 
 
 - Removed lang=en from spotify icon for to take out of pop up when hovering over icon. 
 
 - Replace button elements that mistakenly had hrefs with a tags to allow for correct navigation of site features. 
 
-- Fixed file names and file paths to standardised and optimized across all browsers. 
+- Fixed file names and file paths to standardised and optimized across all browsers.
+
+- aria-labels placed incorrectly in the i elements in the footer as oppossed to the anchor elements, which was fixed. 
 
 ### Bugs not fixed 
 
@@ -435,13 +469,13 @@ When putting my html files through the html validator, there were some errors th
 
 When putting my site through Wave Accessibility for an evaluation of its accessibility, it reported poor contrast of the small red text in the tours section and within the reviews of the album section on the home page. 
 
->I acknowledged this and attempted to change it,  but opted to leave the text as it was because I believe the text worked as part of the design, and there as good contrast with the other elements around it. 
+I acknowledged this and attempted to change it to a bolder text,  but opted to leave the text as it was because I believe the text worked as part of the design, and there as good contrast with the other elements around it. 
 
 ![Wave report of of contrast score](docs/testing/wave-score.png)
 
 ## Deployment 
 
->The steps I followed to deploy my project were as follows:
+The steps I followed to deploy my project were as follows:
 
 1. Accessed my gituhub respository.
 2. Clicked on settings tab. 
@@ -450,7 +484,7 @@ When putting my site through Wave Accessibility for an evaluation of its accessi
 5. Leave /root as default option.
 6. Click Save.
 
->I then waited for a couple of mins, refreshed the page and my sites link was accessible through the repository. 
+I then waited for a couple of mins, refreshed the page and my sites link was accessible through the repository. 
 
 ## Credits
 
@@ -459,11 +493,11 @@ When putting my site through Wave Accessibility for an evaluation of its accessi
 >Album Image was made using Microft AI Image generator: 
 https://create.microsoft.com/en-us/features/ai-image-generator
 
->Singer Image on home page is an AI edited version of this image: https://unsplash.com/photos/man-playing-guitar-while-singing-QA-qQfWJM0E
+>Singer Image on home page is an AI edited version of this image from Melanie van Leeuwen on Unsplash: https://unsplash.com/photos/man-playing-guitar-while-singing-QA-qQfWJM0E
 
->Echoes of the fallen single cover art by Jon Tyson from unsplash: https://unsplash.com/photos/black-white-and-red-abstract-painting-WB9TRkyrlzk
+>Echoes of the fallen single cover art by Jon Tyson from Unsplash: https://unsplash.com/photos/black-white-and-red-abstract-painting-WB9TRkyrlzk
 
->Black background image is an AI edited version of this image: https://unsplash.com/photos/grayscale-photography-of-rock-formation-_8hGFBxWD0A
+>Black background image is an AI edited version of this image by Brian Patrick Tagalog on Unsplash: https://unsplash.com/photos/grayscale-photography-of-rock-formation-_8hGFBxWD0A
 
 >Youtube video 1: Tears Don't Fall by Bullet for my valentine: https://www.youtube.com/watch?v=9sTQ0QdkN3Q
 
@@ -474,6 +508,10 @@ https://create.microsoft.com/en-us/features/ai-image-generator
 >Youtube video 4: Wherever you will go by The Calling: https://www.youtube.com/watch?v=iAP9AF6DCu4
 
 >Favicon from FLATICON: https://www.flaticon.com/free-icon/blood-drop_893529?term=blood+drop&page=1&
+
+>I took a lot of inspiration from multiple websites, but in particular from the Green Day website, which can be found here: https://greenday.com/tour
+
+>Social Media Icons were from Font Awesome: https://fontawesome.com/icons/twitter?f=brands&s=solid
 
 
 ### Audio was sourced through uppbeat
